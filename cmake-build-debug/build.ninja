@@ -823,6 +823,45 @@ build InlineFunc.exe: CXX_EXECUTABLE_LINKER__InlineFunc_Debug CMakeFiles/InlineF
   TARGET_PDB = InlineFunc.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Car
+
+
+#############################################
+# Order-only phony target for Car
+
+build cmake_object_order_depends_target_Car: phony || CMakeFiles/Car.dir
+
+build CMakeFiles/Car.dir/03/2/Car.cpp.obj: CXX_COMPILER__Car_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/Car.cpp || cmake_object_order_depends_target_Car
+  DEP_FILE = CMakeFiles\Car.dir\03\2\Car.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Car.dir
+  OBJECT_FILE_DIR = CMakeFiles\Car.dir\03\2
+
+build CMakeFiles/Car.dir/03/2/RacingMain.cpp.obj: CXX_COMPILER__Car_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/RacingMain.cpp || cmake_object_order_depends_target_Car
+  DEP_FILE = CMakeFiles\Car.dir\03\2\RacingMain.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Car.dir
+  OBJECT_FILE_DIR = CMakeFiles\Car.dir\03\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Car
+
+
+#############################################
+# Link the executable Car.exe
+
+build Car.exe: CXX_EXECUTABLE_LINKER__Car_Debug CMakeFiles/Car.dir/03/2/Car.cpp.obj CMakeFiles/Car.dir/03/2/RacingMain.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Car.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Car.exe
+  TARGET_IMPLIB = libCar.dll.a
+  TARGET_PDB = Car.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 02-4-2
 
 
@@ -1291,6 +1330,72 @@ build 02-1-3.exe: CXX_EXECUTABLE_LINKER__02-1-3_Debug CMakeFiles/02-1-3.dir/02/2
   TARGET_PDB = 02-1-3.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FruitSaleSim1
+
+
+#############################################
+# Order-only phony target for FruitSaleSim1
+
+build cmake_object_order_depends_target_FruitSaleSim1: phony || CMakeFiles/FruitSaleSim1.dir
+
+build CMakeFiles/FruitSaleSim1.dir/03/3/FruitSaleSim1.cpp.obj: CXX_COMPILER__FruitSaleSim1_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/3/FruitSaleSim1.cpp || cmake_object_order_depends_target_FruitSaleSim1
+  DEP_FILE = CMakeFiles\FruitSaleSim1.dir\03\3\FruitSaleSim1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FruitSaleSim1.dir
+  OBJECT_FILE_DIR = CMakeFiles\FruitSaleSim1.dir\03\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FruitSaleSim1
+
+
+#############################################
+# Link the executable FruitSaleSim1.exe
+
+build FruitSaleSim1.exe: CXX_EXECUTABLE_LINKER__FruitSaleSim1_Debug CMakeFiles/FruitSaleSim1.dir/03/3/FruitSaleSim1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FruitSaleSim1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FruitSaleSim1.exe
+  TARGET_IMPLIB = libFruitSaleSim1.dll.a
+  TARGET_PDB = FruitSaleSim1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RacingCarOuterFunc
+
+
+#############################################
+# Order-only phony target for RacingCarOuterFunc
+
+build cmake_object_order_depends_target_RacingCarOuterFunc: phony || CMakeFiles/RacingCarOuterFunc.dir
+
+build CMakeFiles/RacingCarOuterFunc.dir/03/1/RacingCarOuterFunc.cpp.obj: CXX_COMPILER__RacingCarOuterFunc_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/1/RacingCarOuterFunc.cpp || cmake_object_order_depends_target_RacingCarOuterFunc
+  DEP_FILE = CMakeFiles\RacingCarOuterFunc.dir\03\1\RacingCarOuterFunc.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RacingCarOuterFunc.dir
+  OBJECT_FILE_DIR = CMakeFiles\RacingCarOuterFunc.dir\03\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RacingCarOuterFunc
+
+
+#############################################
+# Link the executable RacingCarOuterFunc.exe
+
+build RacingCarOuterFunc.exe: CXX_EXECUTABLE_LINKER__RacingCarOuterFunc_Debug CMakeFiles/RacingCarOuterFunc.dir/03/1/RacingCarOuterFunc.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RacingCarOuterFunc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RacingCarOuterFunc.exe
+  TARGET_IMPLIB = libRacingCarOuterFunc.dll.a
+  TARGET_PDB = RacingCarOuterFunc.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target RefReturnOne
 
 
@@ -1423,6 +1528,51 @@ build MemMalFree.exe: CXX_EXECUTABLE_LINKER__MemMalFree_Debug CMakeFiles/MemMalF
   TARGET_PDB = MemMalFree.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Point
+
+
+#############################################
+# Order-only phony target for Point
+
+build cmake_object_order_depends_target_Point: phony || CMakeFiles/Point.dir
+
+build CMakeFiles/Point.dir/04/Point.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/Point.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\Point.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Point.dir
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+
+build CMakeFiles/Point.dir/04/Rectangle.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/Rectangle.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Point.dir
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+
+build CMakeFiles/Point.dir/04/RectangleFaultFind.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/RectangleFaultFind.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\RectangleFaultFind.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Point.dir
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Point
+
+
+#############################################
+# Link the executable Point.exe
+
+build Point.exe: CXX_EXECUTABLE_LINKER__Point_Debug CMakeFiles/Point.dir/04/Point.cpp.obj CMakeFiles/Point.dir/04/Rectangle.cpp.obj CMakeFiles/Point.dir/04/RectangleFaultFind.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Point.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Point.exe
+  TARGET_IMPLIB = libPoint.dll.a
+  TARGET_PDB = Point.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target StdCPPFunc
 
 
@@ -1456,6 +1606,309 @@ build StdCPPFunc.exe: CXX_EXECUTABLE_LINKER__StdCPPFunc_Debug CMakeFiles/StdCPPF
   TARGET_PDB = StdCPPFunc.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RacingCar
+
+
+#############################################
+# Order-only phony target for RacingCar
+
+build cmake_object_order_depends_target_RacingCar: phony || CMakeFiles/RacingCar.dir
+
+build CMakeFiles/RacingCar.dir/03/1/RacingCar.cpp.obj: CXX_COMPILER__RacingCar_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/1/RacingCar.cpp || cmake_object_order_depends_target_RacingCar
+  DEP_FILE = CMakeFiles\RacingCar.dir\03\1\RacingCar.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RacingCar.dir
+  OBJECT_FILE_DIR = CMakeFiles\RacingCar.dir\03\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RacingCar
+
+
+#############################################
+# Link the executable RacingCar.exe
+
+build RacingCar.exe: CXX_EXECUTABLE_LINKER__RacingCar_Debug CMakeFiles/RacingCar.dir/03/1/RacingCar.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RacingCar.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RacingCar.exe
+  TARGET_IMPLIB = libRacingCar.dll.a
+  TARGET_PDB = RacingCar.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CarInline
+
+
+#############################################
+# Order-only phony target for CarInline
+
+build cmake_object_order_depends_target_CarInline: phony || CMakeFiles/CarInline.dir
+
+build CMakeFiles/CarInline.dir/03/2/CarInline.cpp.obj: CXX_COMPILER__CarInline_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/CarInline.cpp || cmake_object_order_depends_target_CarInline
+  DEP_FILE = CMakeFiles\CarInline.dir\03\2\CarInline.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\CarInline.dir
+  OBJECT_FILE_DIR = CMakeFiles\CarInline.dir\03\2
+
+build CMakeFiles/CarInline.dir/03/2/RacingInlineMain.cpp.obj: CXX_COMPILER__CarInline_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/RacingInlineMain.cpp || cmake_object_order_depends_target_CarInline
+  DEP_FILE = CMakeFiles\CarInline.dir\03\2\RacingInlineMain.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\CarInline.dir
+  OBJECT_FILE_DIR = CMakeFiles\CarInline.dir\03\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CarInline
+
+
+#############################################
+# Link the executable CarInline.exe
+
+build CarInline.exe: CXX_EXECUTABLE_LINKER__CarInline_Debug CMakeFiles/CarInline.dir/03/2/CarInline.cpp.obj CMakeFiles/CarInline.dir/03/2/RacingInlineMain.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CarInline.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CarInline.exe
+  TARGET_IMPLIB = libCarInline.dll.a
+  TARGET_PDB = CarInline.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RacingCarFuncAdd
+
+
+#############################################
+# Order-only phony target for RacingCarFuncAdd
+
+build cmake_object_order_depends_target_RacingCarFuncAdd: phony || CMakeFiles/RacingCarFuncAdd.dir
+
+build CMakeFiles/RacingCarFuncAdd.dir/03/1/RacingCarFuncAdd.cpp.obj: CXX_COMPILER__RacingCarFuncAdd_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/1/RacingCarFuncAdd.cpp || cmake_object_order_depends_target_RacingCarFuncAdd
+  DEP_FILE = CMakeFiles\RacingCarFuncAdd.dir\03\1\RacingCarFuncAdd.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RacingCarFuncAdd.dir
+  OBJECT_FILE_DIR = CMakeFiles\RacingCarFuncAdd.dir\03\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RacingCarFuncAdd
+
+
+#############################################
+# Link the executable RacingCarFuncAdd.exe
+
+build RacingCarFuncAdd.exe: CXX_EXECUTABLE_LINKER__RacingCarFuncAdd_Debug CMakeFiles/RacingCarFuncAdd.dir/03/1/RacingCarFuncAdd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RacingCarFuncAdd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RacingCarFuncAdd.exe
+  TARGET_IMPLIB = libRacingCarFuncAdd.dll.a
+  TARGET_PDB = RacingCarFuncAdd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-1
+
+
+#############################################
+# Order-only phony target for 03-1
+
+build cmake_object_order_depends_target_03-1: phony || CMakeFiles/03-1.dir
+
+build CMakeFiles/03-1.dir/03/1/03-1.cpp.obj: CXX_COMPILER__03-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/1/03-1.cpp || cmake_object_order_depends_target_03-1
+  DEP_FILE = CMakeFiles\03-1.dir\03\1\03-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\03-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-1.dir\03\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-1
+
+
+#############################################
+# Link the executable 03-1.exe
+
+build 03-1.exe: CXX_EXECUTABLE_LINKER__03-1_Debug CMakeFiles/03-1.dir/03/1/03-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-1.exe
+  TARGET_IMPLIB = lib03-1.dll.a
+  TARGET_PDB = 03-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RacingCarEnum
+
+
+#############################################
+# Order-only phony target for RacingCarEnum
+
+build cmake_object_order_depends_target_RacingCarEnum: phony || CMakeFiles/RacingCarEnum.dir
+
+build CMakeFiles/RacingCarEnum.dir/03/1/RacingCarEnum.cpp.obj: CXX_COMPILER__RacingCarEnum_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/1/RacingCarEnum.cpp || cmake_object_order_depends_target_RacingCarEnum
+  DEP_FILE = CMakeFiles\RacingCarEnum.dir\03\1\RacingCarEnum.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RacingCarEnum.dir
+  OBJECT_FILE_DIR = CMakeFiles\RacingCarEnum.dir\03\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RacingCarEnum
+
+
+#############################################
+# Link the executable RacingCarEnum.exe
+
+build RacingCarEnum.exe: CXX_EXECUTABLE_LINKER__RacingCarEnum_Debug CMakeFiles/RacingCarEnum.dir/03/1/RacingCarEnum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RacingCarEnum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RacingCarEnum.exe
+  TARGET_IMPLIB = libRacingCarEnum.dll.a
+  TARGET_PDB = RacingCarEnum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RacingCarClassBase
+
+
+#############################################
+# Order-only phony target for RacingCarClassBase
+
+build cmake_object_order_depends_target_RacingCarClassBase: phony || CMakeFiles/RacingCarClassBase.dir
+
+build CMakeFiles/RacingCarClassBase.dir/03/2/RacingCarClassBase.cpp.obj: CXX_COMPILER__RacingCarClassBase_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/RacingCarClassBase.cpp || cmake_object_order_depends_target_RacingCarClassBase
+  DEP_FILE = CMakeFiles\RacingCarClassBase.dir\03\2\RacingCarClassBase.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RacingCarClassBase.dir
+  OBJECT_FILE_DIR = CMakeFiles\RacingCarClassBase.dir\03\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RacingCarClassBase
+
+
+#############################################
+# Link the executable RacingCarClassBase.exe
+
+build RacingCarClassBase.exe: CXX_EXECUTABLE_LINKER__RacingCarClassBase_Debug CMakeFiles/RacingCarClassBase.dir/03/2/RacingCarClassBase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RacingCarClassBase.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RacingCarClassBase.exe
+  TARGET_IMPLIB = libRacingCarClassBase.dll.a
+  TARGET_PDB = RacingCarClassBase.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-2-1
+
+
+#############################################
+# Order-only phony target for 03-2-1
+
+build cmake_object_order_depends_target_03-2-1: phony || CMakeFiles/03-2-1.dir
+
+build CMakeFiles/03-2-1.dir/03/2/03-2-1.cpp.obj: CXX_COMPILER__03-2-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/03-2-1.cpp || cmake_object_order_depends_target_03-2-1
+  DEP_FILE = CMakeFiles\03-2-1.dir\03\2\03-2-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\03-2-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-2-1.dir\03\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-2-1
+
+
+#############################################
+# Link the executable 03-2-1.exe
+
+build 03-2-1.exe: CXX_EXECUTABLE_LINKER__03-2-1_Debug CMakeFiles/03-2-1.dir/03/2/03-2-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-2-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-2-1.exe
+  TARGET_IMPLIB = lib03-2-1.dll.a
+  TARGET_PDB = 03-2-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-2-2
+
+
+#############################################
+# Order-only phony target for 03-2-2
+
+build cmake_object_order_depends_target_03-2-2: phony || CMakeFiles/03-2-2.dir
+
+build CMakeFiles/03-2-2.dir/03/2/03-2-2.cpp.obj: CXX_COMPILER__03-2-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/03/2/03-2-2.cpp || cmake_object_order_depends_target_03-2-2
+  DEP_FILE = CMakeFiles\03-2-2.dir\03\2\03-2-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\03-2-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-2-2.dir\03\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-2-2
+
+
+#############################################
+# Link the executable 03-2-2.exe
+
+build 03-2-2.exe: CXX_EXECUTABLE_LINKER__03-2-2_Debug CMakeFiles/03-2-2.dir/03/2/03-2-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-2-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-2-2.exe
+  TARGET_IMPLIB = lib03-2-2.dll.a
+  TARGET_PDB = 03-2-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RectangleFault
+
+
+#############################################
+# Order-only phony target for RectangleFault
+
+build cmake_object_order_depends_target_RectangleFault: phony || CMakeFiles/RectangleFault.dir
+
+build CMakeFiles/RectangleFault.dir/04/RectangleFault.cpp.obj: CXX_COMPILER__RectangleFault_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/RectangleFault.cpp || cmake_object_order_depends_target_RectangleFault
+  DEP_FILE = CMakeFiles\RectangleFault.dir\04\RectangleFault.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RectangleFault.dir
+  OBJECT_FILE_DIR = CMakeFiles\RectangleFault.dir\04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RectangleFault
+
+
+#############################################
+# Link the executable RectangleFault.exe
+
+build RectangleFault.exe: CXX_EXECUTABLE_LINKER__RectangleFault_Debug CMakeFiles/RectangleFault.dir/04/RectangleFault.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RectangleFault.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RectangleFault.exe
+  TARGET_IMPLIB = libRectangleFault.dll.a
+  TARGET_PDB = RectangleFault.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build 02-1-1: phony 02-1-1.exe
@@ -1470,7 +1923,17 @@ build 02-4-1: phony 02-4-1.exe
 
 build 02-4-2: phony 02-4-2.exe
 
+build 03-1: phony 03-1.exe
+
+build 03-2-1: phony 03-2-1.exe
+
+build 03-2-2: phony 03-2-2.exe
+
 build BetweenAdder: phony BetweenAdder.exe
+
+build Car: phony Car.exe
+
+build CarInline: phony CarInline.exe
 
 build DataTypeBool: phony DataTypeBool.exe
 
@@ -1481,6 +1944,8 @@ build DefaultValue1: phony DefaultValue1.exe
 build DefaultValue3: phony DefaultValue3.exe
 
 build Example: phony Example.exe
+
+build FruitSaleSim1: phony FruitSaleSim1.exe
 
 build FunctionOverloading: phony FunctionOverloading.exe
 
@@ -1502,9 +1967,23 @@ build NewDelete: phony NewDelete.exe
 
 build NewObject: phony NewObject.exe
 
+build Point: phony Point.exe
+
 build Q1: phony Q1.exe
 
 build Question: phony Question.exe
+
+build RacingCar: phony RacingCar.exe
+
+build RacingCarClassBase: phony RacingCarClassBase.exe
+
+build RacingCarEnum: phony RacingCarEnum.exe
+
+build RacingCarFuncAdd: phony RacingCarFuncAdd.exe
+
+build RacingCarOuterFunc: phony RacingCarOuterFunc.exe
+
+build RectangleFault: phony RectangleFault.exe
 
 build RefArrElem: phony RefArrElem.exe
 
@@ -1550,7 +2029,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe untitled.exe HelloWorld.exe FunctionOverloading.exe q3.exe BetweenAdder.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe RefReturnThree.exe StringIO.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe InlineFunc.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe NameSp4.exe NewObject.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe StdCPPFunc.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe untitled.exe HelloWorld.exe FunctionOverloading.exe q3.exe BetweenAdder.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe RefReturnThree.exe StringIO.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe NameSp4.exe NewObject.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe 03-1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe
 
 # =============================================================================
 # Built-in targets
