@@ -1093,6 +1093,39 @@ build 02-1-3.exe: CXX_EXECUTABLE_LINKER__02-1-3_Debug CMakeFiles/02-1-3.dir/02/2
   TARGET_PDB = 02-1-3.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RefReturnOne
+
+
+#############################################
+# Order-only phony target for RefReturnOne
+
+build cmake_object_order_depends_target_RefReturnOne: phony || CMakeFiles/RefReturnOne.dir
+
+build CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj: CXX_COMPILER__RefReturnOne_Debug C$:/Users/WorldPC/CLionProjects/untitled/02/2/RefReturnOne.cpp || cmake_object_order_depends_target_RefReturnOne
+  DEP_FILE = CMakeFiles\RefReturnOne.dir\02\2\RefReturnOne.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RefReturnOne.dir
+  OBJECT_FILE_DIR = CMakeFiles\RefReturnOne.dir\02\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RefReturnOne
+
+
+#############################################
+# Link the executable RefReturnOne.exe
+
+build RefReturnOne.exe: CXX_EXECUTABLE_LINKER__RefReturnOne_Debug CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RefReturnOne.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RefReturnOne.exe
+  TARGET_IMPLIB = libRefReturnOne.dll.a
+  TARGET_PDB = RefReturnOne.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build 02-1-1: phony 02-1-1.exe
@@ -1133,6 +1166,8 @@ build RefArrElem: phony RefArrElem.exe
 
 build RefPtr: phony RefPtr.exe
 
+build RefReturnOne: phony RefReturnOne.exe
+
 build RefSwap: phony RefSwap.exe
 
 build Referen: phony Referen.exe
@@ -1165,7 +1200,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe q4.exe untitled.exe HelloWorld.exe FunctionOverloading.exe q3.exe BetweenAdder.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe DefaultValue3.exe Q1.exe InlineFunc.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe NameSp4.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe
+build all: phony main.exe q4.exe untitled.exe HelloWorld.exe FunctionOverloading.exe q3.exe BetweenAdder.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe DefaultValue3.exe Q1.exe InlineFunc.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe NameSp4.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe RefReturnOne.exe
 
 # =============================================================================
 # Built-in targets

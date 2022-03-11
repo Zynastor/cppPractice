@@ -1,14 +1,14 @@
 # ninja log v5
+1	453	6685162813878886	CMakeFiles/Example.dir/01/4/Example.cpp.obj	4fdbab70f8890ba3
+2	402	6685111860801101	CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj	45aea3c98eaa59b6
 0	444	6685101481895376	CMakeFiles/main.dir/main.cpp.obj	da697d559ccf8610
 454	535	6685162814665299	Example.exe	b95e8803833b332e
 2	389	6685231006451784	CMakeFiles/RefArrElem.dir/02/2/RefArrElem.cpp.obj	fa6047b983aa6b5f
-2	402	6685111860801101	CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj	45aea3c98eaa59b6
-1	453	6685162813878886	CMakeFiles/Example.dir/01/4/Example.cpp.obj	4fdbab70f8890ba3
 2	398	6685113877222412	CMakeFiles/StringIO.dir/01/1/StringIO.cpp.obj	7690606c06509278
-1	186	6685254545116102	build.ninja	a0ece6a1a67cf208
-0	456	6685100565845863	CMakeFiles/untitled.dir/main.cpp.obj	625addf6d38ca19c
-547	669	6685189555177515	NameSp4.exe	9cbaaa5d2ec4266d
+1	186	6686806320901042	build.ninja	a0ece6a1a67cf208
 390	460	6685231007141848	RefArrElem.exe	6090daaf4a2166f4
+547	669	6685189555177515	NameSp4.exe	9cbaaa5d2ec4266d
+0	456	6685100565845863	CMakeFiles/untitled.dir/main.cpp.obj	625addf6d38ca19c
 457	533	6685100566592647	untitled.exe	310ba568ef055114
 444	517	6685101482615361	main.exe	ebd4569c0bd89d64
 0	425	6685104166427703	CMakeFiles/HelloWorld.dir/01/1/HelloWorld.cpp.obj	36efb9f662b46256
@@ -43,6 +43,7 @@
 1	462	6685161508693297	CMakeFiles/InlineFunc.dir/01/4/InlineFunc.cpp.obj	22824a00425616e
 1	547	6685189553977526	CMakeFiles/NameSp4.dir/01/5/NameSp4.cpp.obj	1e97e49f9eec0d1a
 2	431	6685179048099420	CMakeFiles/NameSp2.dir/01/5/NameSp2.cpp.obj	2951f1fc176e018
+0	530	6685255792412921	CMakeFiles/02-1-3.dir/02/2/02-1-3.cpp.obj	65f564930b73f01e
 431	507	6685179048839569	NameSp2.exe	f95719ec211c0ab1
 2	419	6685184903185772	CMakeFiles/NameSp3.dir/01/5/NameSp3.cpp.obj	7e7a1de4e082eea8
 0	445	6685220581836734	CMakeFiles/DataTypeBool.dir/02/2/DataTypeBool.cpp.obj	f5d0ceb0e95d2804
@@ -51,9 +52,14 @@
 2	382	6685215934401975	CMakeFiles/TrueAndFalse.dir/02/2/TrueAndFalse.cpp.obj	b5408c5adcd54487
 445	528	6685220582635637	DataTypeBool.exe	d95e57941316392c
 0	448	6685224946505091	CMakeFiles/Referen.dir/02/2/Referen.cpp.obj	8fab0e20b86d515a
-2	421	6685235440281786	CMakeFiles/RefPtr.dir/02/2/RefPtr.cpp.obj	26c94745eba38ed4
-421	493	6685235440980928	RefPtr.exe	ab8c586433adf84
+3	742	6686794250764841	CMakeFiles/RefPtr.dir/02/2/RefPtr.cpp.obj	26c94745eba38ed4
+742	1048	6686794253802116	RefPtr.exe	ab8c586433adf84
 0	584	6685250890953012	CMakeFiles/RefSwap.dir/02/2/RefSwap.cpp.obj	cd56f794d7a4184b
 585	670	6685250891783033	RefSwap.exe	f07758944efce661
-0	530	6685255792412921	CMakeFiles/02-1-3.dir/02/2/02-1-3.cpp.obj	65f564930b73f01e
 530	622	6685255793312928	02-1-3.exe	f220c168aa90fa5e
+0	731	6686807582024392	CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj	5ace72d7ba8e3eb7
+732	982	6686807584504275	RefReturnOne.exe	e9ecb3a1a09b5202
+2	433	6686807737855196	CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj	5ace72d7ba8e3eb7
+433	519	6686807738675941	RefReturnOne.exe	e9ecb3a1a09b5202
+2	471	6686807800832451	CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj	5ace72d7ba8e3eb7
+471	567	6686807801774590	RefReturnOne.exe	e9ecb3a1a09b5202
