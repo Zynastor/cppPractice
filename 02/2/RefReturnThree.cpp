@@ -2,19 +2,17 @@
 
 using namespace std;
 
-int &RefRetFuncOne(int &ref) {
+int RefRetFunction(int &ref) {//반환형은 기본자료형 int이다.
     ref++;
     return ref;
 }
 
-int main() {
+int main(void) {
     int num1 = 1;
-    int &num2 = RefRetFuncOne(num1);
-
-    num1++;
-    num2++;
+    int num2 = RefRetFunction(num1);
+    num1 += 1;
+    num2 += 100;
     cout << "num1: " << num1 << endl;
     cout << "num2: " << num2 << endl;
     return 0;
 }
-
