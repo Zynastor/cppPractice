@@ -1,7 +1,3 @@
-//
-// Created by WorldPC on 2022-03-11.
-//
-
 #ifndef __RECTANGLE_H_
 #define __RECTANGLE_H_
 

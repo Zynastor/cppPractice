@@ -40,17 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-4-1
 
@@ -249,17 +238,38 @@ build HelloWorld.exe: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWo
   TARGET_IMPLIB = libHelloWorld.dll.a
   TARGET_PDB = HelloWorld.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BetweenAdder
+
 
 #############################################
-# Utility command for rebuild_cache
+# Order-only phony target for BetweenAdder
 
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\WorldPC\CLionProjects\untitled -BC:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
+build cmake_object_order_depends_target_BetweenAdder: phony || CMakeFiles/BetweenAdder.dir
 
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+build CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj: CXX_COMPILER__BetweenAdder_Debug C$:/Users/WorldPC/CLionProjects/untitled/01/1/BetweenAdder.cpp || cmake_object_order_depends_target_BetweenAdder
+  DEP_FILE = CMakeFiles\BetweenAdder.dir\01\1\BetweenAdder.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\BetweenAdder.dir
+  OBJECT_FILE_DIR = CMakeFiles\BetweenAdder.dir\01\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BetweenAdder
+
+
+#############################################
+# Link the executable BetweenAdder.exe
+
+build BetweenAdder.exe: CXX_EXECUTABLE_LINKER__BetweenAdder_Debug CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BetweenAdder.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BetweenAdder.exe
+  TARGET_IMPLIB = libBetweenAdder.dll.a
+  TARGET_PDB = BetweenAdder.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionOverloading
@@ -326,39 +336,6 @@ build q3.exe: CXX_EXECUTABLE_LINKER__q3_Debug CMakeFiles/q3.dir/01/1/q3.cpp.obj
   TARGET_FILE = q3.exe
   TARGET_IMPLIB = libq3.dll.a
   TARGET_PDB = q3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target BetweenAdder
-
-
-#############################################
-# Order-only phony target for BetweenAdder
-
-build cmake_object_order_depends_target_BetweenAdder: phony || CMakeFiles/BetweenAdder.dir
-
-build CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj: CXX_COMPILER__BetweenAdder_Debug C$:/Users/WorldPC/CLionProjects/untitled/01/1/BetweenAdder.cpp || cmake_object_order_depends_target_BetweenAdder
-  DEP_FILE = CMakeFiles\BetweenAdder.dir\01\1\BetweenAdder.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\BetweenAdder.dir
-  OBJECT_FILE_DIR = CMakeFiles\BetweenAdder.dir\01\1
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target BetweenAdder
-
-
-#############################################
-# Link the executable BetweenAdder.exe
-
-build BetweenAdder.exe: CXX_EXECUTABLE_LINKER__BetweenAdder_Debug CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\BetweenAdder.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = BetweenAdder.exe
-  TARGET_IMPLIB = libBetweenAdder.dll.a
-  TARGET_PDB = BetweenAdder.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TrueAndFalse
@@ -460,39 +437,6 @@ build SimpleAdder.exe: CXX_EXECUTABLE_LINKER__SimpleAdder_Debug CMakeFiles/Simpl
   TARGET_PDB = SimpleAdder.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target RefReturnThree
-
-
-#############################################
-# Order-only phony target for RefReturnThree
-
-build cmake_object_order_depends_target_RefReturnThree: phony || CMakeFiles/RefReturnThree.dir
-
-build CMakeFiles/RefReturnThree.dir/02/2/RefReturnThree.cpp.obj: CXX_COMPILER__RefReturnThree_Debug C$:/Users/WorldPC/CLionProjects/untitled/02/2/RefReturnThree.cpp || cmake_object_order_depends_target_RefReturnThree
-  DEP_FILE = CMakeFiles\RefReturnThree.dir\02\2\RefReturnThree.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\RefReturnThree.dir
-  OBJECT_FILE_DIR = CMakeFiles\RefReturnThree.dir\02\2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target RefReturnThree
-
-
-#############################################
-# Link the executable RefReturnThree.exe
-
-build RefReturnThree.exe: CXX_EXECUTABLE_LINKER__RefReturnThree_Debug CMakeFiles/RefReturnThree.dir/02/2/RefReturnThree.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\RefReturnThree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = RefReturnThree.exe
-  TARGET_IMPLIB = libRefReturnThree.dll.a
-  TARGET_PDB = RefReturnThree.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target StringIO
 
 
@@ -524,6 +468,39 @@ build StringIO.exe: CXX_EXECUTABLE_LINKER__StringIO_Debug CMakeFiles/StringIO.di
   TARGET_FILE = StringIO.exe
   TARGET_IMPLIB = libStringIO.dll.a
   TARGET_PDB = StringIO.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RefReturnThree
+
+
+#############################################
+# Order-only phony target for RefReturnThree
+
+build cmake_object_order_depends_target_RefReturnThree: phony || CMakeFiles/RefReturnThree.dir
+
+build CMakeFiles/RefReturnThree.dir/02/2/RefReturnThree.cpp.obj: CXX_COMPILER__RefReturnThree_Debug C$:/Users/WorldPC/CLionProjects/untitled/02/2/RefReturnThree.cpp || cmake_object_order_depends_target_RefReturnThree
+  DEP_FILE = CMakeFiles\RefReturnThree.dir\02\2\RefReturnThree.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\RefReturnThree.dir
+  OBJECT_FILE_DIR = CMakeFiles\RefReturnThree.dir\02\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RefReturnThree
+
+
+#############################################
+# Link the executable RefReturnThree.exe
+
+build RefReturnThree.exe: CXX_EXECUTABLE_LINKER__RefReturnThree_Debug CMakeFiles/RefReturnThree.dir/02/2/RefReturnThree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RefReturnThree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RefReturnThree.exe
+  TARGET_IMPLIB = libRefReturnThree.dll.a
+  TARGET_PDB = RefReturnThree.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q1
@@ -790,6 +767,39 @@ build Q1.exe: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/01/3/Q1.cpp.obj
   TARGET_PDB = Q1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 04-2
+
+
+#############################################
+# Order-only phony target for 04-2
+
+build cmake_object_order_depends_target_04-2: phony || CMakeFiles/04-2.dir
+
+build CMakeFiles/04-2.dir/04/2/04-2.cpp.obj: CXX_COMPILER__04-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/2/04-2.cpp || cmake_object_order_depends_target_04-2
+  DEP_FILE = CMakeFiles\04-2.dir\04\2\04-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\04-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-2.dir\04\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-2
+
+
+#############################################
+# Link the executable 04-2.exe
+
+build 04-2.exe: CXX_EXECUTABLE_LINKER__04-2_Debug CMakeFiles/04-2.dir/04/2/04-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-2.exe
+  TARGET_IMPLIB = lib04-2.dll.a
+  TARGET_PDB = 04-2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target InlineFunc
 
 
@@ -1027,6 +1037,39 @@ build NameSp3.exe: CXX_EXECUTABLE_LINKER__NameSp3_Debug CMakeFiles/NameSp3.dir/0
   TARGET_PDB = NameSp3.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FruitSalesSim3
+
+
+#############################################
+# Order-only phony target for FruitSalesSim3
+
+build cmake_object_order_depends_target_FruitSalesSim3: phony || CMakeFiles/FruitSalesSim3.dir
+
+build CMakeFiles/FruitSalesSim3.dir/04/3/FruitSalesSim3.cpp.obj: CXX_COMPILER__FruitSalesSim3_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/FruitSalesSim3.cpp || cmake_object_order_depends_target_FruitSalesSim3
+  DEP_FILE = CMakeFiles\FruitSalesSim3.dir\04\3\FruitSalesSim3.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FruitSalesSim3.dir
+  OBJECT_FILE_DIR = CMakeFiles\FruitSalesSim3.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FruitSalesSim3
+
+
+#############################################
+# Link the executable FruitSalesSim3.exe
+
+build FruitSalesSim3.exe: CXX_EXECUTABLE_LINKER__FruitSalesSim3_Debug CMakeFiles/FruitSalesSim3.dir/04/3/FruitSalesSim3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FruitSalesSim3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FruitSalesSim3.exe
+  TARGET_IMPLIB = libFruitSalesSim3.dll.a
+  TARGET_PDB = FruitSalesSim3.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target NameSp4
 
 
@@ -1058,6 +1101,51 @@ build NameSp4.exe: CXX_EXECUTABLE_LINKER__NameSp4_Debug CMakeFiles/NameSp4.dir/0
   TARGET_FILE = NameSp4.exe
   TARGET_IMPLIB = libNameSp4.dll.a
   TARGET_PDB = NameSp4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointRemake
+
+
+#############################################
+# Order-only phony target for PointRemake
+
+build cmake_object_order_depends_target_PointRemake: phony || CMakeFiles/PointRemake.dir
+
+build CMakeFiles/PointRemake.dir/04/3/Point.cpp.obj: CXX_COMPILER__PointRemake_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/Point.cpp || cmake_object_order_depends_target_PointRemake
+  DEP_FILE = CMakeFiles\PointRemake.dir\04\3\Point.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PointRemake.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointRemake.dir\04\3
+
+build CMakeFiles/PointRemake.dir/04/3/Rectangle.cpp.obj: CXX_COMPILER__PointRemake_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/Rectangle.cpp || cmake_object_order_depends_target_PointRemake
+  DEP_FILE = CMakeFiles\PointRemake.dir\04\3\Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PointRemake.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointRemake.dir\04\3
+
+build CMakeFiles/PointRemake.dir/04/3/RectangleConstructor.cpp.obj: CXX_COMPILER__PointRemake_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/RectangleConstructor.cpp || cmake_object_order_depends_target_PointRemake
+  DEP_FILE = CMakeFiles\PointRemake.dir\04\3\RectangleConstructor.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PointRemake.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointRemake.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointRemake
+
+
+#############################################
+# Link the executable PointRemake.exe
+
+build PointRemake.exe: CXX_EXECUTABLE_LINKER__PointRemake_Debug CMakeFiles/PointRemake.dir/04/3/Point.cpp.obj CMakeFiles/PointRemake.dir/04/3/Rectangle.cpp.obj CMakeFiles/PointRemake.dir/04/3/RectangleConstructor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PointRemake.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PointRemake.exe
+  TARGET_IMPLIB = libPointRemake.dll.a
+  TARGET_PDB = PointRemake.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NewObject
@@ -1536,23 +1624,23 @@ build MemMalFree.exe: CXX_EXECUTABLE_LINKER__MemMalFree_Debug CMakeFiles/MemMalF
 
 build cmake_object_order_depends_target_Point: phony || CMakeFiles/Point.dir
 
-build CMakeFiles/Point.dir/04/Point.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/Point.cpp || cmake_object_order_depends_target_Point
-  DEP_FILE = CMakeFiles\Point.dir\04\Point.cpp.obj.d
+build CMakeFiles/Point.dir/04/1/Point.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/1/Point.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\1\Point.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\Point.dir
-  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04\1
 
-build CMakeFiles/Point.dir/04/Rectangle.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/Rectangle.cpp || cmake_object_order_depends_target_Point
-  DEP_FILE = CMakeFiles\Point.dir\04\Rectangle.cpp.obj.d
+build CMakeFiles/Point.dir/04/1/Rectangle.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/1/Rectangle.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\1\Rectangle.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\Point.dir
-  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04\1
 
-build CMakeFiles/Point.dir/04/RectangleFaultFind.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/RectangleFaultFind.cpp || cmake_object_order_depends_target_Point
-  DEP_FILE = CMakeFiles\Point.dir\04\RectangleFaultFind.cpp.obj.d
+build CMakeFiles/Point.dir/04/1/RectangleFaultFind.cpp.obj: CXX_COMPILER__Point_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/1/RectangleFaultFind.cpp || cmake_object_order_depends_target_Point
+  DEP_FILE = CMakeFiles\Point.dir\04\1\RectangleFaultFind.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\Point.dir
-  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04
+  OBJECT_FILE_DIR = CMakeFiles\Point.dir\04\1
 
 
 # =============================================================================
@@ -1562,7 +1650,7 @@ build CMakeFiles/Point.dir/04/RectangleFaultFind.cpp.obj: CXX_COMPILER__Point_De
 #############################################
 # Link the executable Point.exe
 
-build Point.exe: CXX_EXECUTABLE_LINKER__Point_Debug CMakeFiles/Point.dir/04/Point.cpp.obj CMakeFiles/Point.dir/04/Rectangle.cpp.obj CMakeFiles/Point.dir/04/RectangleFaultFind.cpp.obj
+build Point.exe: CXX_EXECUTABLE_LINKER__Point_Debug CMakeFiles/Point.dir/04/1/Point.cpp.obj CMakeFiles/Point.dir/04/1/Rectangle.cpp.obj CMakeFiles/Point.dir/04/1/RectangleFaultFind.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Point.dir
@@ -1711,6 +1799,39 @@ build RacingCarFuncAdd.exe: CXX_EXECUTABLE_LINKER__RacingCarFuncAdd_Debug CMakeF
   TARGET_PDB = RacingCarFuncAdd.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Encaps1
+
+
+#############################################
+# Order-only phony target for Encaps1
+
+build cmake_object_order_depends_target_Encaps1: phony || CMakeFiles/Encaps1.dir
+
+build CMakeFiles/Encaps1.dir/04/2/Encaps1.cpp.obj: CXX_COMPILER__Encaps1_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/2/Encaps1.cpp || cmake_object_order_depends_target_Encaps1
+  DEP_FILE = CMakeFiles\Encaps1.dir\04\2\Encaps1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Encaps1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Encaps1.dir\04\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Encaps1
+
+
+#############################################
+# Link the executable Encaps1.exe
+
+build Encaps1.exe: CXX_EXECUTABLE_LINKER__Encaps1_Debug CMakeFiles/Encaps1.dir/04/2/Encaps1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Encaps1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Encaps1.exe
+  TARGET_IMPLIB = libEncaps1.dll.a
+  TARGET_PDB = Encaps1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 03-1
 
 
@@ -1742,6 +1863,39 @@ build 03-1.exe: CXX_EXECUTABLE_LINKER__03-1_Debug CMakeFiles/03-1.dir/03/1/03-1.
   TARGET_FILE = 03-1.exe
   TARGET_IMPLIB = lib03-1.dll.a
   TARGET_PDB = 03-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Constructor1
+
+
+#############################################
+# Order-only phony target for Constructor1
+
+build cmake_object_order_depends_target_Constructor1: phony || CMakeFiles/Constructor1.dir
+
+build CMakeFiles/Constructor1.dir/04/3/Constructor1.cpp.obj: CXX_COMPILER__Constructor1_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/Constructor1.cpp || cmake_object_order_depends_target_Constructor1
+  DEP_FILE = CMakeFiles\Constructor1.dir\04\3\Constructor1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Constructor1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Constructor1.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Constructor1
+
+
+#############################################
+# Link the executable Constructor1.exe
+
+build Constructor1.exe: CXX_EXECUTABLE_LINKER__Constructor1_Debug CMakeFiles/Constructor1.dir/04/3/Constructor1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Constructor1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Constructor1.exe
+  TARGET_IMPLIB = libConstructor1.dll.a
+  TARGET_PDB = Constructor1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RacingCarEnum
@@ -1884,11 +2038,11 @@ build 03-2-2.exe: CXX_EXECUTABLE_LINKER__03-2-2_Debug CMakeFiles/03-2-2.dir/03/2
 
 build cmake_object_order_depends_target_RectangleFault: phony || CMakeFiles/RectangleFault.dir
 
-build CMakeFiles/RectangleFault.dir/04/RectangleFault.cpp.obj: CXX_COMPILER__RectangleFault_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/RectangleFault.cpp || cmake_object_order_depends_target_RectangleFault
-  DEP_FILE = CMakeFiles\RectangleFault.dir\04\RectangleFault.cpp.obj.d
+build CMakeFiles/RectangleFault.dir/04/1/RectangleFault.cpp.obj: CXX_COMPILER__RectangleFault_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/1/RectangleFault.cpp || cmake_object_order_depends_target_RectangleFault
+  DEP_FILE = CMakeFiles\RectangleFault.dir\04\1\RectangleFault.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\RectangleFault.dir
-  OBJECT_FILE_DIR = CMakeFiles\RectangleFault.dir\04
+  OBJECT_FILE_DIR = CMakeFiles\RectangleFault.dir\04\1
 
 
 # =============================================================================
@@ -1898,7 +2052,7 @@ build CMakeFiles/RectangleFault.dir/04/RectangleFault.cpp.obj: CXX_COMPILER__Rec
 #############################################
 # Link the executable RectangleFault.exe
 
-build RectangleFault.exe: CXX_EXECUTABLE_LINKER__RectangleFault_Debug CMakeFiles/RectangleFault.dir/04/RectangleFault.cpp.obj
+build RectangleFault.exe: CXX_EXECUTABLE_LINKER__RectangleFault_Debug CMakeFiles/RectangleFault.dir/04/1/RectangleFault.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RectangleFault.dir
@@ -1907,6 +2061,326 @@ build RectangleFault.exe: CXX_EXECUTABLE_LINKER__RectangleFault_Debug CMakeFiles
   TARGET_FILE = RectangleFault.exe
   TARGET_IMPLIB = libRectangleFault.dll.a
   TARGET_PDB = RectangleFault.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-1
+
+
+#############################################
+# Order-only phony target for 04-1
+
+build cmake_object_order_depends_target_04-1: phony || CMakeFiles/04-1.dir
+
+build CMakeFiles/04-1.dir/04/1/04-1.cpp.obj: CXX_COMPILER__04-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/1/04-1.cpp || cmake_object_order_depends_target_04-1
+  DEP_FILE = CMakeFiles\04-1.dir\04\1\04-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\04-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-1.dir\04\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-1
+
+
+#############################################
+# Link the executable 04-1.exe
+
+build 04-1.exe: CXX_EXECUTABLE_LINKER__04-1_Debug CMakeFiles/04-1.dir/04/1/04-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-1.exe
+  TARGET_IMPLIB = lib04-1.dll.a
+  TARGET_PDB = 04-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Encaps2
+
+
+#############################################
+# Order-only phony target for Encaps2
+
+build cmake_object_order_depends_target_Encaps2: phony || CMakeFiles/Encaps2.dir
+
+build CMakeFiles/Encaps2.dir/04/2/Encaps2.cpp.obj: CXX_COMPILER__Encaps2_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/2/Encaps2.cpp || cmake_object_order_depends_target_Encaps2
+  DEP_FILE = CMakeFiles\Encaps2.dir\04\2\Encaps2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Encaps2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Encaps2.dir\04\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Encaps2
+
+
+#############################################
+# Link the executable Encaps2.exe
+
+build Encaps2.exe: CXX_EXECUTABLE_LINKER__Encaps2_Debug CMakeFiles/Encaps2.dir/04/2/Encaps2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Encaps2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Encaps2.exe
+  TARGET_IMPLIB = libEncaps2.dll.a
+  TARGET_PDB = Encaps2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Constructor2
+
+
+#############################################
+# Order-only phony target for Constructor2
+
+build cmake_object_order_depends_target_Constructor2: phony || CMakeFiles/Constructor2.dir
+
+build CMakeFiles/Constructor2.dir/04/3/Constructor2.cpp.obj: CXX_COMPILER__Constructor2_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/Constructor2.cpp || cmake_object_order_depends_target_Constructor2
+  DEP_FILE = CMakeFiles\Constructor2.dir\04\3\Constructor2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Constructor2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Constructor2.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Constructor2
+
+
+#############################################
+# Link the executable Constructor2.exe
+
+build Constructor2.exe: CXX_EXECUTABLE_LINKER__Constructor2_Debug CMakeFiles/Constructor2.dir/04/3/Constructor2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Constructor2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Constructor2.exe
+  TARGET_IMPLIB = libConstructor2.dll.a
+  TARGET_PDB = Constructor2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FruitSaleSim2
+
+
+#############################################
+# Order-only phony target for FruitSaleSim2
+
+build cmake_object_order_depends_target_FruitSaleSim2: phony || CMakeFiles/FruitSaleSim2.dir
+
+build CMakeFiles/FruitSaleSim2.dir/04/3/FruitSaleSim2.cpp.obj: CXX_COMPILER__FruitSaleSim2_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/FruitSaleSim2.cpp || cmake_object_order_depends_target_FruitSaleSim2
+  DEP_FILE = CMakeFiles\FruitSaleSim2.dir\04\3\FruitSaleSim2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FruitSaleSim2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FruitSaleSim2.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FruitSaleSim2
+
+
+#############################################
+# Link the executable FruitSaleSim2.exe
+
+build FruitSaleSim2.exe: CXX_EXECUTABLE_LINKER__FruitSaleSim2_Debug CMakeFiles/FruitSaleSim2.dir/04/3/FruitSaleSim2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FruitSaleSim2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FruitSaleSim2.exe
+  TARGET_IMPLIB = libFruitSaleSim2.dll.a
+  TARGET_PDB = FruitSaleSim2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReferenceMember
+
+
+#############################################
+# Order-only phony target for ReferenceMember
+
+build cmake_object_order_depends_target_ReferenceMember: phony || CMakeFiles/ReferenceMember.dir
+
+build CMakeFiles/ReferenceMember.dir/04/3/ReferenceMember.cpp.obj: CXX_COMPILER__ReferenceMember_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/ReferenceMember.cpp || cmake_object_order_depends_target_ReferenceMember
+  DEP_FILE = CMakeFiles\ReferenceMember.dir\04\3\ReferenceMember.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ReferenceMember.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReferenceMember.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReferenceMember
+
+
+#############################################
+# Link the executable ReferenceMember.exe
+
+build ReferenceMember.exe: CXX_EXECUTABLE_LINKER__ReferenceMember_Debug CMakeFiles/ReferenceMember.dir/04/3/ReferenceMember.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReferenceMember.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReferenceMember.exe
+  TARGET_IMPLIB = libReferenceMember.dll.a
+  TARGET_PDB = ReferenceMember.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Destructor
+
+
+#############################################
+# Order-only phony target for Destructor
+
+build cmake_object_order_depends_target_Destructor: phony || CMakeFiles/Destructor.dir
+
+build CMakeFiles/Destructor.dir/04/3/Destructor.cpp.obj: CXX_COMPILER__Destructor_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/Destructor.cpp || cmake_object_order_depends_target_Destructor
+  DEP_FILE = CMakeFiles\Destructor.dir\04\3\Destructor.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Destructor.dir
+  OBJECT_FILE_DIR = CMakeFiles\Destructor.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Destructor
+
+
+#############################################
+# Link the executable Destructor.exe
+
+build Destructor.exe: CXX_EXECUTABLE_LINKER__Destructor_Debug CMakeFiles/Destructor.dir/04/3/Destructor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Destructor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Destructor.exe
+  TARGET_IMPLIB = libDestructor.dll.a
+  TARGET_PDB = Destructor.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-3-1
+
+
+#############################################
+# Order-only phony target for 04-3-1
+
+build cmake_object_order_depends_target_04-3-1: phony || CMakeFiles/04-3-1.dir
+
+build CMakeFiles/04-3-1.dir/04/3/04-3-1.cpp.obj: CXX_COMPILER__04-3-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/04-3-1.cpp || cmake_object_order_depends_target_04-3-1
+  DEP_FILE = CMakeFiles\04-3-1.dir\04\3\04-3-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\04-3-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-3-1.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-3-1
+
+
+#############################################
+# Link the executable 04-3-1.exe
+
+build 04-3-1.exe: CXX_EXECUTABLE_LINKER__04-3-1_Debug CMakeFiles/04-3-1.dir/04/3/04-3-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-3-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-3-1.exe
+  TARGET_IMPLIB = lib04-3-1.dll.a
+  TARGET_PDB = 04-3-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-3-2
+
+
+#############################################
+# Order-only phony target for 04-3-2
+
+build cmake_object_order_depends_target_04-3-2: phony || CMakeFiles/04-3-2.dir
+
+build CMakeFiles/04-3-2.dir/04/3/04-3-2.cpp.obj: CXX_COMPILER__04-3-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/3/04-3-2.cpp || cmake_object_order_depends_target_04-3-2
+  DEP_FILE = CMakeFiles\04-3-2.dir\04\3\04-3-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\04-3-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-3-2.dir\04\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-3-2
+
+
+#############################################
+# Link the executable 04-3-2.exe
+
+build 04-3-2.exe: CXX_EXECUTABLE_LINKER__04-3-2_Debug CMakeFiles/04-3-2.dir/04/3/04-3-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-3-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-3-2.exe
+  TARGET_IMPLIB = lib04-3-2.dll.a
+  TARGET_PDB = 04-3-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ObjArr
+
+
+#############################################
+# Order-only phony target for ObjArr
+
+build cmake_object_order_depends_target_ObjArr: phony || CMakeFiles/ObjArr.dir
+
+build CMakeFiles/ObjArr.dir/04/4/ObjArr.cpp.obj: CXX_COMPILER__ObjArr_Debug C$:/Users/WorldPC/CLionProjects/untitled/04/4/ObjArr.cpp || cmake_object_order_depends_target_ObjArr
+  DEP_FILE = CMakeFiles\ObjArr.dir\04\4\ObjArr.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ObjArr.dir
+  OBJECT_FILE_DIR = CMakeFiles\ObjArr.dir\04\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ObjArr
+
+
+#############################################
+# Link the executable ObjArr.exe
+
+build ObjArr.exe: CXX_EXECUTABLE_LINKER__ObjArr_Debug CMakeFiles/ObjArr.dir/04/4/ObjArr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ObjArr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ObjArr.exe
+  TARGET_IMPLIB = libObjArr.dll.a
+  TARGET_PDB = ObjArr.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\WorldPC\CLionProjects\untitled -BC:\Users\WorldPC\CLionProjects\untitled\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -1929,11 +2403,23 @@ build 03-2-1: phony 03-2-1.exe
 
 build 03-2-2: phony 03-2-2.exe
 
+build 04-1: phony 04-1.exe
+
+build 04-2: phony 04-2.exe
+
+build 04-3-1: phony 04-3-1.exe
+
+build 04-3-2: phony 04-3-2.exe
+
 build BetweenAdder: phony BetweenAdder.exe
 
 build Car: phony Car.exe
 
 build CarInline: phony CarInline.exe
+
+build Constructor1: phony Constructor1.exe
+
+build Constructor2: phony Constructor2.exe
 
 build DataTypeBool: phony DataTypeBool.exe
 
@@ -1943,9 +2429,19 @@ build DefaultValue1: phony DefaultValue1.exe
 
 build DefaultValue3: phony DefaultValue3.exe
 
+build Destructor: phony Destructor.exe
+
+build Encaps1: phony Encaps1.exe
+
+build Encaps2: phony Encaps2.exe
+
 build Example: phony Example.exe
 
 build FruitSaleSim1: phony FruitSaleSim1.exe
+
+build FruitSaleSim2: phony FruitSaleSim2.exe
+
+build FruitSalesSim3: phony FruitSalesSim3.exe
 
 build FunctionOverloading: phony FunctionOverloading.exe
 
@@ -1967,7 +2463,11 @@ build NewDelete: phony NewDelete.exe
 
 build NewObject: phony NewObject.exe
 
+build ObjArr: phony ObjArr.exe
+
 build Point: phony Point.exe
+
+build PointRemake: phony PointRemake.exe
 
 build Q1: phony Q1.exe
 
@@ -1999,6 +2499,8 @@ build RefSwap: phony RefSwap.exe
 
 build Referen: phony Referen.exe
 
+build ReferenceMember: phony ReferenceMember.exe
+
 build SimpleAdder: phony SimpleAdder.exe
 
 build SimpleMain: phony SimpleMain.exe
@@ -2029,7 +2531,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe untitled.exe HelloWorld.exe FunctionOverloading.exe q3.exe BetweenAdder.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe RefReturnThree.exe StringIO.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe NameSp4.exe NewObject.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe 03-1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe
 
 # =============================================================================
 # Built-in targets
