@@ -33,6 +33,7 @@ C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/FruitSalesS
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/NameSp4.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/PointRemake.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/NewObject.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/IKnowTempObj.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/SimpleMain.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/DataTypeBool.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RefArrElem.dir
@@ -72,5 +73,18 @@ C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ObjArr.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ObjPtrArr.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/UsefulThisPtr.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingSystemVer02.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ClassInit.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ShallowCopyError.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/05-1.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/PassObjCopycon.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ReturnObjCopycon.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ReturnObjDeadTime.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingSystemVer03.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ConstObject.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ConstOverloading.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/MyFriendClass.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/MyFriendFunction.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/CComStatic.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/NeedGlobal.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
