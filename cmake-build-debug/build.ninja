@@ -1451,6 +1451,39 @@ build 02-1-1.exe: CXX_EXECUTABLE_LINKER__02-1-1_Debug CMakeFiles/02-1-1.dir/02/2
   TARGET_PDB = 02-1-1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target StaticMember
+
+
+#############################################
+# Order-only phony target for StaticMember
+
+build cmake_object_order_depends_target_StaticMember: phony || CMakeFiles/StaticMember.dir
+
+build CMakeFiles/StaticMember.dir/06/3/StaticMember.cpp.obj: CXX_COMPILER__StaticMember_Debug C$:/Users/WorldPC/CLionProjects/untitled/06/3/StaticMember.cpp || cmake_object_order_depends_target_StaticMember
+  DEP_FILE = CMakeFiles\StaticMember.dir\06\3\StaticMember.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\StaticMember.dir
+  OBJECT_FILE_DIR = CMakeFiles\StaticMember.dir\06\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StaticMember
+
+
+#############################################
+# Link the executable StaticMember.exe
+
+build StaticMember.exe: CXX_EXECUTABLE_LINKER__StaticMember_Debug CMakeFiles/StaticMember.dir/06/3/StaticMember.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StaticMember.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StaticMember.exe
+  TARGET_IMPLIB = libStaticMember.dll.a
+  TARGET_PDB = StaticMember.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 02-1-3
 
 
@@ -2986,6 +3019,369 @@ build NeedGlobal.exe: CXX_EXECUTABLE_LINKER__NeedGlobal_Debug CMakeFiles/NeedGlo
   TARGET_IMPLIB = libNeedGlobal.dll.a
   TARGET_PDB = NeedGlobal.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PublicStaticMember
+
+
+#############################################
+# Order-only phony target for PublicStaticMember
+
+build cmake_object_order_depends_target_PublicStaticMember: phony || CMakeFiles/PublicStaticMember.dir
+
+build CMakeFiles/PublicStaticMember.dir/06/3/PublicStaticMember.cpp.obj: CXX_COMPILER__PublicStaticMember_Debug C$:/Users/WorldPC/CLionProjects/untitled/06/3/PublicStaticMember.cpp || cmake_object_order_depends_target_PublicStaticMember
+  DEP_FILE = CMakeFiles\PublicStaticMember.dir\06\3\PublicStaticMember.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PublicStaticMember.dir
+  OBJECT_FILE_DIR = CMakeFiles\PublicStaticMember.dir\06\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PublicStaticMember
+
+
+#############################################
+# Link the executable PublicStaticMember.exe
+
+build PublicStaticMember.exe: CXX_EXECUTABLE_LINKER__PublicStaticMember_Debug CMakeFiles/PublicStaticMember.dir/06/3/PublicStaticMember.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PublicStaticMember.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PublicStaticMember.exe
+  TARGET_IMPLIB = libPublicStaticMember.dll.a
+  TARGET_PDB = PublicStaticMember.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ConstStaticMember
+
+
+#############################################
+# Order-only phony target for ConstStaticMember
+
+build cmake_object_order_depends_target_ConstStaticMember: phony || CMakeFiles/ConstStaticMember.dir
+
+build CMakeFiles/ConstStaticMember.dir/06/3/ConstStaticMember.cpp.obj: CXX_COMPILER__ConstStaticMember_Debug C$:/Users/WorldPC/CLionProjects/untitled/06/3/ConstStaticMember.cpp || cmake_object_order_depends_target_ConstStaticMember
+  DEP_FILE = CMakeFiles\ConstStaticMember.dir\06\3\ConstStaticMember.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ConstStaticMember.dir
+  OBJECT_FILE_DIR = CMakeFiles\ConstStaticMember.dir\06\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ConstStaticMember
+
+
+#############################################
+# Link the executable ConstStaticMember.exe
+
+build ConstStaticMember.exe: CXX_EXECUTABLE_LINKER__ConstStaticMember_Debug CMakeFiles/ConstStaticMember.dir/06/3/ConstStaticMember.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ConstStaticMember.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ConstStaticMember.exe
+  TARGET_IMPLIB = libConstStaticMember.dll.a
+  TARGET_PDB = ConstStaticMember.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mutable
+
+
+#############################################
+# Order-only phony target for Mutable
+
+build cmake_object_order_depends_target_Mutable: phony || CMakeFiles/Mutable.dir
+
+build CMakeFiles/Mutable.dir/06/3/Mutable.cpp.obj: CXX_COMPILER__Mutable_Debug C$:/Users/WorldPC/CLionProjects/untitled/06/3/Mutable.cpp || cmake_object_order_depends_target_Mutable
+  DEP_FILE = CMakeFiles\Mutable.dir\06\3\Mutable.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Mutable.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mutable.dir\06\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mutable
+
+
+#############################################
+# Link the executable Mutable.exe
+
+build Mutable.exe: CXX_EXECUTABLE_LINKER__Mutable_Debug CMakeFiles/Mutable.dir/06/3/Mutable.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Mutable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mutable.exe
+  TARGET_IMPLIB = libMutable.dll.a
+  TARGET_PDB = Mutable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BankingSystemVer04
+
+
+#############################################
+# Order-only phony target for BankingSystemVer04
+
+build cmake_object_order_depends_target_BankingSystemVer04: phony || CMakeFiles/BankingSystemVer04.dir
+
+build CMakeFiles/BankingSystemVer04.dir/06/4/BankingSystemVer04.cpp.obj: CXX_COMPILER__BankingSystemVer04_Debug C$:/Users/WorldPC/CLionProjects/untitled/06/4/BankingSystemVer04.cpp || cmake_object_order_depends_target_BankingSystemVer04
+  DEP_FILE = CMakeFiles\BankingSystemVer04.dir\06\4\BankingSystemVer04.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\BankingSystemVer04.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankingSystemVer04.dir\06\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BankingSystemVer04
+
+
+#############################################
+# Link the executable BankingSystemVer04.exe
+
+build BankingSystemVer04.exe: CXX_EXECUTABLE_LINKER__BankingSystemVer04_Debug CMakeFiles/BankingSystemVer04.dir/06/4/BankingSystemVer04.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BankingSystemVer04.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BankingSystemVer04.exe
+  TARGET_IMPLIB = libBankingSystemVer04.dll.a
+  TARGET_PDB = BankingSystemVer04.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EmployeeManager1
+
+
+#############################################
+# Order-only phony target for EmployeeManager1
+
+build cmake_object_order_depends_target_EmployeeManager1: phony || CMakeFiles/EmployeeManager1.dir
+
+build CMakeFiles/EmployeeManager1.dir/07/1/EmployeeManager1.cpp.obj: CXX_COMPILER__EmployeeManager1_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/1/EmployeeManager1.cpp || cmake_object_order_depends_target_EmployeeManager1
+  DEP_FILE = CMakeFiles\EmployeeManager1.dir\07\1\EmployeeManager1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\EmployeeManager1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EmployeeManager1.dir\07\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EmployeeManager1
+
+
+#############################################
+# Link the executable EmployeeManager1.exe
+
+build EmployeeManager1.exe: CXX_EXECUTABLE_LINKER__EmployeeManager1_Debug CMakeFiles/EmployeeManager1.dir/07/1/EmployeeManager1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EmployeeManager1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EmployeeManager1.exe
+  TARGET_IMPLIB = libEmployeeManager1.dll.a
+  TARGET_PDB = EmployeeManager1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UnivStudentInheri
+
+
+#############################################
+# Order-only phony target for UnivStudentInheri
+
+build cmake_object_order_depends_target_UnivStudentInheri: phony || CMakeFiles/UnivStudentInheri.dir
+
+build CMakeFiles/UnivStudentInheri.dir/07/2/UnivStudentInheri.cpp.obj: CXX_COMPILER__UnivStudentInheri_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/UnivStudentInheri.cpp || cmake_object_order_depends_target_UnivStudentInheri
+  DEP_FILE = CMakeFiles\UnivStudentInheri.dir\07\2\UnivStudentInheri.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\UnivStudentInheri.dir
+  OBJECT_FILE_DIR = CMakeFiles\UnivStudentInheri.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnivStudentInheri
+
+
+#############################################
+# Link the executable UnivStudentInheri.exe
+
+build UnivStudentInheri.exe: CXX_EXECUTABLE_LINKER__UnivStudentInheri_Debug CMakeFiles/UnivStudentInheri.dir/07/2/UnivStudentInheri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\UnivStudentInheri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = UnivStudentInheri.exe
+  TARGET_IMPLIB = libUnivStudentInheri.dll.a
+  TARGET_PDB = UnivStudentInheri.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DerivCreOrder
+
+
+#############################################
+# Order-only phony target for DerivCreOrder
+
+build cmake_object_order_depends_target_DerivCreOrder: phony || CMakeFiles/DerivCreOrder.dir
+
+build CMakeFiles/DerivCreOrder.dir/07/2/DerivCreOrder.cpp.obj: CXX_COMPILER__DerivCreOrder_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/DerivCreOrder.cpp || cmake_object_order_depends_target_DerivCreOrder
+  DEP_FILE = CMakeFiles\DerivCreOrder.dir\07\2\DerivCreOrder.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\DerivCreOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles\DerivCreOrder.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DerivCreOrder
+
+
+#############################################
+# Link the executable DerivCreOrder.exe
+
+build DerivCreOrder.exe: CXX_EXECUTABLE_LINKER__DerivCreOrder_Debug CMakeFiles/DerivCreOrder.dir/07/2/DerivCreOrder.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DerivCreOrder.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DerivCreOrder.exe
+  TARGET_IMPLIB = libDerivCreOrder.dll.a
+  TARGET_PDB = DerivCreOrder.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DerivDestOrder
+
+
+#############################################
+# Order-only phony target for DerivDestOrder
+
+build cmake_object_order_depends_target_DerivDestOrder: phony || CMakeFiles/DerivDestOrder.dir
+
+build CMakeFiles/DerivDestOrder.dir/07/2/DerivDestOrder.cpp.obj: CXX_COMPILER__DerivDestOrder_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/DerivDestOrder.cpp || cmake_object_order_depends_target_DerivDestOrder
+  DEP_FILE = CMakeFiles\DerivDestOrder.dir\07\2\DerivDestOrder.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\DerivDestOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles\DerivDestOrder.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DerivDestOrder
+
+
+#############################################
+# Link the executable DerivDestOrder.exe
+
+build DerivDestOrder.exe: CXX_EXECUTABLE_LINKER__DerivDestOrder_Debug CMakeFiles/DerivDestOrder.dir/07/2/DerivDestOrder.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DerivDestOrder.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DerivDestOrder.exe
+  TARGET_IMPLIB = libDerivDestOrder.dll.a
+  TARGET_PDB = DerivDestOrder.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DestModel
+
+
+#############################################
+# Order-only phony target for DestModel
+
+build cmake_object_order_depends_target_DestModel: phony || CMakeFiles/DestModel.dir
+
+build CMakeFiles/DestModel.dir/07/2/DestModel.cpp.obj: CXX_COMPILER__DestModel_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/DestModel.cpp || cmake_object_order_depends_target_DestModel
+  DEP_FILE = CMakeFiles\DestModel.dir\07\2\DestModel.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\DestModel.dir
+  OBJECT_FILE_DIR = CMakeFiles\DestModel.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DestModel
+
+
+#############################################
+# Link the executable DestModel.exe
+
+build DestModel.exe: CXX_EXECUTABLE_LINKER__DestModel_Debug CMakeFiles/DestModel.dir/07/2/DestModel.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DestModel.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DestModel.exe
+  TARGET_IMPLIB = libDestModel.dll.a
+  TARGET_PDB = DestModel.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-1-1
+
+
+#############################################
+# Order-only phony target for 07-1-1
+
+build cmake_object_order_depends_target_07-1-1: phony || CMakeFiles/07-1-1.dir
+
+build CMakeFiles/07-1-1.dir/07/2/07-1-1.cpp.obj: CXX_COMPILER__07-1-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/07-1-1.cpp || cmake_object_order_depends_target_07-1-1
+  DEP_FILE = CMakeFiles\07-1-1.dir\07\2\07-1-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\07-1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-1-1.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-1-1
+
+
+#############################################
+# Link the executable 07-1-1.exe
+
+build 07-1-1.exe: CXX_EXECUTABLE_LINKER__07-1-1_Debug CMakeFiles/07-1-1.dir/07/2/07-1-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-1-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-1-1.exe
+  TARGET_IMPLIB = lib07-1-1.dll.a
+  TARGET_PDB = 07-1-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-1-2
+
+
+#############################################
+# Order-only phony target for 07-1-2
+
+build cmake_object_order_depends_target_07-1-2: phony || CMakeFiles/07-1-2.dir
+
+build CMakeFiles/07-1-2.dir/07/2/07-1-2.cpp.obj: CXX_COMPILER__07-1-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/2/07-1-2.cpp || cmake_object_order_depends_target_07-1-2
+  DEP_FILE = CMakeFiles\07-1-2.dir\07\2\07-1-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\07-1-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-1-2.dir\07\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-1-2
+
+
+#############################################
+# Link the executable 07-1-2.exe
+
+build 07-1-2.exe: CXX_EXECUTABLE_LINKER__07-1-2_Debug CMakeFiles/07-1-2.dir/07/2/07-1-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-1-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-1-2.exe
+  TARGET_IMPLIB = lib07-1-2.dll.a
+  TARGET_PDB = 07-1-2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3040,9 +3436,15 @@ build 04-3-2: phony 04-3-2.exe
 
 build 05-1: phony 05-1.exe
 
+build 07-1-1: phony 07-1-1.exe
+
+build 07-1-2: phony 07-1-2.exe
+
 build BankingSystemVer02: phony BankingSystemVer02.exe
 
 build BankingSystemVer03: phony BankingSystemVer03.exe
+
+build BankingSystemVer04: phony BankingSystemVer04.exe
 
 build BetweenAdder: phony BetweenAdder.exe
 
@@ -3058,6 +3460,8 @@ build ConstObject: phony ConstObject.exe
 
 build ConstOverloading: phony ConstOverloading.exe
 
+build ConstStaticMember: phony ConstStaticMember.exe
+
 build Constructor1: phony Constructor1.exe
 
 build Constructor2: phony Constructor2.exe
@@ -3070,7 +3474,15 @@ build DefaultValue1: phony DefaultValue1.exe
 
 build DefaultValue3: phony DefaultValue3.exe
 
+build DerivCreOrder: phony DerivCreOrder.exe
+
+build DerivDestOrder: phony DerivDestOrder.exe
+
+build DestModel: phony DestModel.exe
+
 build Destructor: phony Destructor.exe
+
+build EmployeeManager1: phony EmployeeManager1.exe
 
 build Encaps1: phony Encaps1.exe
 
@@ -3093,6 +3505,8 @@ build IKnowTempObj: phony IKnowTempObj.exe
 build InlineFunc: phony InlineFunc.exe
 
 build MemMalFree: phony MemMalFree.exe
+
+build Mutable: phony Mutable.exe
 
 build MyFriendClass: phony MyFriendClass.exe
 
@@ -3123,6 +3537,8 @@ build Point: phony Point.exe
 build PointRemake: phony PointRemake.exe
 
 build PointerThis: phony PointerThis.exe
+
+build PublicStaticMember: phony PublicStaticMember.exe
 
 build Q1: phony Q1.exe
 
@@ -3168,11 +3584,15 @@ build SimpleAdder: phony SimpleAdder.exe
 
 build SimpleMain: phony SimpleMain.exe
 
+build StaticMember: phony StaticMember.exe
+
 build StdCPPFunc: phony StdCPPFunc.exe
 
 build StringIO: phony StringIO.exe
 
 build TrueAndFalse: phony TrueAndFalse.exe
+
+build UnivStudentInheri: phony UnivStudentInheri.exe
 
 build UsefulThisPtr: phony UsefulThisPtr.exe
 
@@ -3196,7 +3616,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe
 
 # =============================================================================
 # Built-in targets
