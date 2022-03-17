@@ -44,6 +44,7 @@ C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/StaticMembe
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/02-1-3.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/FruitSaleSim1.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RacingCarOuterFunc.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ISAInheritance.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RefReturnOne.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/NewDelete.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RefReturnTwo.dir
@@ -92,11 +93,19 @@ C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ConstStatic
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/Mutable.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingSystemVer04.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/EmployeeManager1.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/HASInheritance.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/UnivStudentInheri.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/DerivCreOrder.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/DerivDestOrder.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/DestModel.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/07-1-1.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/07-1-2.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ProtectedHeri.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/HASComposite.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/07-2-1.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/07-2-2.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingSystemVer05.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ObjectPointer.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/EmployeeManager2.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

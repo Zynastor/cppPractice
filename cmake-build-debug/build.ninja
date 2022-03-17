@@ -1583,6 +1583,39 @@ build RacingCarOuterFunc.exe: CXX_EXECUTABLE_LINKER__RacingCarOuterFunc_Debug CM
   TARGET_PDB = RacingCarOuterFunc.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ISAInheritance
+
+
+#############################################
+# Order-only phony target for ISAInheritance
+
+build cmake_object_order_depends_target_ISAInheritance: phony || CMakeFiles/ISAInheritance.dir
+
+build CMakeFiles/ISAInheritance.dir/07/4/ISAInheritance.cpp.obj: CXX_COMPILER__ISAInheritance_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/4/ISAInheritance.cpp || cmake_object_order_depends_target_ISAInheritance
+  DEP_FILE = CMakeFiles\ISAInheritance.dir\07\4\ISAInheritance.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ISAInheritance.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISAInheritance.dir\07\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ISAInheritance
+
+
+#############################################
+# Link the executable ISAInheritance.exe
+
+build ISAInheritance.exe: CXX_EXECUTABLE_LINKER__ISAInheritance_Debug CMakeFiles/ISAInheritance.dir/07/4/ISAInheritance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ISAInheritance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ISAInheritance.exe
+  TARGET_IMPLIB = libISAInheritance.dll.a
+  TARGET_PDB = ISAInheritance.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target RefReturnOne
 
 
@@ -3185,6 +3218,39 @@ build EmployeeManager1.exe: CXX_EXECUTABLE_LINKER__EmployeeManager1_Debug CMakeF
   TARGET_PDB = EmployeeManager1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target HASInheritance
+
+
+#############################################
+# Order-only phony target for HASInheritance
+
+build cmake_object_order_depends_target_HASInheritance: phony || CMakeFiles/HASInheritance.dir
+
+build CMakeFiles/HASInheritance.dir/07/4/HASInheritance.cpp.obj: CXX_COMPILER__HASInheritance_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/4/HASInheritance.cpp || cmake_object_order_depends_target_HASInheritance
+  DEP_FILE = CMakeFiles\HASInheritance.dir\07\4\HASInheritance.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\HASInheritance.dir
+  OBJECT_FILE_DIR = CMakeFiles\HASInheritance.dir\07\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HASInheritance
+
+
+#############################################
+# Link the executable HASInheritance.exe
+
+build HASInheritance.exe: CXX_EXECUTABLE_LINKER__HASInheritance_Debug CMakeFiles/HASInheritance.dir/07/4/HASInheritance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HASInheritance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HASInheritance.exe
+  TARGET_IMPLIB = libHASInheritance.dll.a
+  TARGET_PDB = HASInheritance.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target UnivStudentInheri
 
 
@@ -3382,6 +3448,237 @@ build 07-1-2.exe: CXX_EXECUTABLE_LINKER__07-1-2_Debug CMakeFiles/07-1-2.dir/07/2
   TARGET_IMPLIB = lib07-1-2.dll.a
   TARGET_PDB = 07-1-2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ProtectedHeri
+
+
+#############################################
+# Order-only phony target for ProtectedHeri
+
+build cmake_object_order_depends_target_ProtectedHeri: phony || CMakeFiles/ProtectedHeri.dir
+
+build CMakeFiles/ProtectedHeri.dir/07/3/ProtectedHeri.cpp.obj: CXX_COMPILER__ProtectedHeri_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/3/ProtectedHeri.cpp || cmake_object_order_depends_target_ProtectedHeri
+  DEP_FILE = CMakeFiles\ProtectedHeri.dir\07\3\ProtectedHeri.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ProtectedHeri.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProtectedHeri.dir\07\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProtectedHeri
+
+
+#############################################
+# Link the executable ProtectedHeri.exe
+
+build ProtectedHeri.exe: CXX_EXECUTABLE_LINKER__ProtectedHeri_Debug CMakeFiles/ProtectedHeri.dir/07/3/ProtectedHeri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ProtectedHeri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ProtectedHeri.exe
+  TARGET_IMPLIB = libProtectedHeri.dll.a
+  TARGET_PDB = ProtectedHeri.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HASComposite
+
+
+#############################################
+# Order-only phony target for HASComposite
+
+build cmake_object_order_depends_target_HASComposite: phony || CMakeFiles/HASComposite.dir
+
+build CMakeFiles/HASComposite.dir/07/4/HASComposite.cpp.obj: CXX_COMPILER__HASComposite_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/4/HASComposite.cpp || cmake_object_order_depends_target_HASComposite
+  DEP_FILE = CMakeFiles\HASComposite.dir\07\4\HASComposite.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\HASComposite.dir
+  OBJECT_FILE_DIR = CMakeFiles\HASComposite.dir\07\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HASComposite
+
+
+#############################################
+# Link the executable HASComposite.exe
+
+build HASComposite.exe: CXX_EXECUTABLE_LINKER__HASComposite_Debug CMakeFiles/HASComposite.dir/07/4/HASComposite.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HASComposite.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HASComposite.exe
+  TARGET_IMPLIB = libHASComposite.dll.a
+  TARGET_PDB = HASComposite.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-2-1
+
+
+#############################################
+# Order-only phony target for 07-2-1
+
+build cmake_object_order_depends_target_07-2-1: phony || CMakeFiles/07-2-1.dir
+
+build CMakeFiles/07-2-1.dir/07/4/07-2-1.cpp.obj: CXX_COMPILER__07-2-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/4/07-2-1.cpp || cmake_object_order_depends_target_07-2-1
+  DEP_FILE = CMakeFiles\07-2-1.dir\07\4\07-2-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\07-2-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-2-1.dir\07\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-2-1
+
+
+#############################################
+# Link the executable 07-2-1.exe
+
+build 07-2-1.exe: CXX_EXECUTABLE_LINKER__07-2-1_Debug CMakeFiles/07-2-1.dir/07/4/07-2-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-2-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-2-1.exe
+  TARGET_IMPLIB = lib07-2-1.dll.a
+  TARGET_PDB = 07-2-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-2-2
+
+
+#############################################
+# Order-only phony target for 07-2-2
+
+build cmake_object_order_depends_target_07-2-2: phony || CMakeFiles/07-2-2.dir
+
+build CMakeFiles/07-2-2.dir/07/4/07-2-2.cpp.obj: CXX_COMPILER__07-2-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/4/07-2-2.cpp || cmake_object_order_depends_target_07-2-2
+  DEP_FILE = CMakeFiles\07-2-2.dir\07\4\07-2-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\07-2-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-2-2.dir\07\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-2-2
+
+
+#############################################
+# Link the executable 07-2-2.exe
+
+build 07-2-2.exe: CXX_EXECUTABLE_LINKER__07-2-2_Debug CMakeFiles/07-2-2.dir/07/4/07-2-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-2-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-2-2.exe
+  TARGET_IMPLIB = lib07-2-2.dll.a
+  TARGET_PDB = 07-2-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BankingSystemVer05
+
+
+#############################################
+# Order-only phony target for BankingSystemVer05
+
+build cmake_object_order_depends_target_BankingSystemVer05: phony || CMakeFiles/BankingSystemVer05.dir
+
+build CMakeFiles/BankingSystemVer05.dir/07/5/BankingSystemVer05.cpp.obj: CXX_COMPILER__BankingSystemVer05_Debug C$:/Users/WorldPC/CLionProjects/untitled/07/5/BankingSystemVer05.cpp || cmake_object_order_depends_target_BankingSystemVer05
+  DEP_FILE = CMakeFiles\BankingSystemVer05.dir\07\5\BankingSystemVer05.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\BankingSystemVer05.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankingSystemVer05.dir\07\5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BankingSystemVer05
+
+
+#############################################
+# Link the executable BankingSystemVer05.exe
+
+build BankingSystemVer05.exe: CXX_EXECUTABLE_LINKER__BankingSystemVer05_Debug CMakeFiles/BankingSystemVer05.dir/07/5/BankingSystemVer05.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BankingSystemVer05.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BankingSystemVer05.exe
+  TARGET_IMPLIB = libBankingSystemVer05.dll.a
+  TARGET_PDB = BankingSystemVer05.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ObjectPointer
+
+
+#############################################
+# Order-only phony target for ObjectPointer
+
+build cmake_object_order_depends_target_ObjectPointer: phony || CMakeFiles/ObjectPointer.dir
+
+build CMakeFiles/ObjectPointer.dir/08/1/ObjectPointer.cpp.obj: CXX_COMPILER__ObjectPointer_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/1/ObjectPointer.cpp || cmake_object_order_depends_target_ObjectPointer
+  DEP_FILE = CMakeFiles\ObjectPointer.dir\08\1\ObjectPointer.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ObjectPointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\ObjectPointer.dir\08\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ObjectPointer
+
+
+#############################################
+# Link the executable ObjectPointer.exe
+
+build ObjectPointer.exe: CXX_EXECUTABLE_LINKER__ObjectPointer_Debug CMakeFiles/ObjectPointer.dir/08/1/ObjectPointer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ObjectPointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ObjectPointer.exe
+  TARGET_IMPLIB = libObjectPointer.dll.a
+  TARGET_PDB = ObjectPointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EmployeeManager2
+
+
+#############################################
+# Order-only phony target for EmployeeManager2
+
+build cmake_object_order_depends_target_EmployeeManager2: phony || CMakeFiles/EmployeeManager2.dir
+
+build CMakeFiles/EmployeeManager2.dir/08/1/EmployeeManager2.cpp.obj: CXX_COMPILER__EmployeeManager2_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/1/EmployeeManager2.cpp || cmake_object_order_depends_target_EmployeeManager2
+  DEP_FILE = CMakeFiles\EmployeeManager2.dir\08\1\EmployeeManager2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\EmployeeManager2.dir
+  OBJECT_FILE_DIR = CMakeFiles\EmployeeManager2.dir\08\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EmployeeManager2
+
+
+#############################################
+# Link the executable EmployeeManager2.exe
+
+build EmployeeManager2.exe: CXX_EXECUTABLE_LINKER__EmployeeManager2_Debug CMakeFiles/EmployeeManager2.dir/08/1/EmployeeManager2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EmployeeManager2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EmployeeManager2.exe
+  TARGET_IMPLIB = libEmployeeManager2.dll.a
+  TARGET_PDB = EmployeeManager2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3440,11 +3737,17 @@ build 07-1-1: phony 07-1-1.exe
 
 build 07-1-2: phony 07-1-2.exe
 
+build 07-2-1: phony 07-2-1.exe
+
+build 07-2-2: phony 07-2-2.exe
+
 build BankingSystemVer02: phony BankingSystemVer02.exe
 
 build BankingSystemVer03: phony BankingSystemVer03.exe
 
 build BankingSystemVer04: phony BankingSystemVer04.exe
+
+build BankingSystemVer05: phony BankingSystemVer05.exe
 
 build BetweenAdder: phony BetweenAdder.exe
 
@@ -3484,6 +3787,8 @@ build Destructor: phony Destructor.exe
 
 build EmployeeManager1: phony EmployeeManager1.exe
 
+build EmployeeManager2: phony EmployeeManager2.exe
+
 build Encaps1: phony Encaps1.exe
 
 build Encaps2: phony Encaps2.exe
@@ -3498,9 +3803,15 @@ build FruitSalesSim3: phony FruitSalesSim3.exe
 
 build FunctionOverloading: phony FunctionOverloading.exe
 
+build HASComposite: phony HASComposite.exe
+
+build HASInheritance: phony HASInheritance.exe
+
 build HelloWorld: phony HelloWorld.exe
 
 build IKnowTempObj: phony IKnowTempObj.exe
+
+build ISAInheritance: phony ISAInheritance.exe
 
 build InlineFunc: phony InlineFunc.exe
 
@@ -3530,6 +3841,8 @@ build ObjArr: phony ObjArr.exe
 
 build ObjPtrArr: phony ObjPtrArr.exe
 
+build ObjectPointer: phony ObjectPointer.exe
+
 build PassObjCopycon: phony PassObjCopycon.exe
 
 build Point: phony Point.exe
@@ -3537,6 +3850,8 @@ build Point: phony Point.exe
 build PointRemake: phony PointRemake.exe
 
 build PointerThis: phony PointerThis.exe
+
+build ProtectedHeri: phony ProtectedHeri.exe
 
 build PublicStaticMember: phony PublicStaticMember.exe
 
@@ -3616,7 +3931,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe ISAInheritance.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe HASInheritance.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe ProtectedHeri.exe HASComposite.exe 07-2-1.exe 07-2-2.exe BankingSystemVer05.exe ObjectPointer.exe EmployeeManager2.exe
 
 # =============================================================================
 # Built-in targets
