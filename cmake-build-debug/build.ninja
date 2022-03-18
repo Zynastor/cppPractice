@@ -3679,6 +3679,204 @@ build EmployeeManager2.exe: CXX_EXECUTABLE_LINKER__EmployeeManager2_Debug CMakeF
   TARGET_IMPLIB = libEmployeeManager2.dll.a
   TARGET_PDB = EmployeeManager2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FunctionOverride
+
+
+#############################################
+# Order-only phony target for FunctionOverride
+
+build cmake_object_order_depends_target_FunctionOverride: phony || CMakeFiles/FunctionOverride.dir
+
+build CMakeFiles/FunctionOverride.dir/08/2/FunctionOverride.cpp.obj: CXX_COMPILER__FunctionOverride_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/2/FunctionOverride.cpp || cmake_object_order_depends_target_FunctionOverride
+  DEP_FILE = CMakeFiles\FunctionOverride.dir\08\2\FunctionOverride.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FunctionOverride.dir
+  OBJECT_FILE_DIR = CMakeFiles\FunctionOverride.dir\08\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FunctionOverride
+
+
+#############################################
+# Link the executable FunctionOverride.exe
+
+build FunctionOverride.exe: CXX_EXECUTABLE_LINKER__FunctionOverride_Debug CMakeFiles/FunctionOverride.dir/08/2/FunctionOverride.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FunctionOverride.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FunctionOverride.exe
+  TARGET_IMPLIB = libFunctionOverride.dll.a
+  TARGET_PDB = FunctionOverride.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FunctionVirtualOverride
+
+
+#############################################
+# Order-only phony target for FunctionVirtualOverride
+
+build cmake_object_order_depends_target_FunctionVirtualOverride: phony || CMakeFiles/FunctionVirtualOverride.dir
+
+build CMakeFiles/FunctionVirtualOverride.dir/08/2/FunctionVirtualOverride.cpp.obj: CXX_COMPILER__FunctionVirtualOverride_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/2/FunctionVirtualOverride.cpp || cmake_object_order_depends_target_FunctionVirtualOverride
+  DEP_FILE = CMakeFiles\FunctionVirtualOverride.dir\08\2\FunctionVirtualOverride.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FunctionVirtualOverride.dir
+  OBJECT_FILE_DIR = CMakeFiles\FunctionVirtualOverride.dir\08\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FunctionVirtualOverride
+
+
+#############################################
+# Link the executable FunctionVirtualOverride.exe
+
+build FunctionVirtualOverride.exe: CXX_EXECUTABLE_LINKER__FunctionVirtualOverride_Debug CMakeFiles/FunctionVirtualOverride.dir/08/2/FunctionVirtualOverride.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FunctionVirtualOverride.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FunctionVirtualOverride.exe
+  TARGET_IMPLIB = libFunctionVirtualOverride.dll.a
+  TARGET_PDB = FunctionVirtualOverride.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EmployeeManager4
+
+
+#############################################
+# Order-only phony target for EmployeeManager4
+
+build cmake_object_order_depends_target_EmployeeManager4: phony || CMakeFiles/EmployeeManager4.dir
+
+build CMakeFiles/EmployeeManager4.dir/08/2/EmployeeManager4.cpp.obj: CXX_COMPILER__EmployeeManager4_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/2/EmployeeManager4.cpp || cmake_object_order_depends_target_EmployeeManager4
+  DEP_FILE = CMakeFiles\EmployeeManager4.dir\08\2\EmployeeManager4.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\EmployeeManager4.dir
+  OBJECT_FILE_DIR = CMakeFiles\EmployeeManager4.dir\08\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EmployeeManager4
+
+
+#############################################
+# Link the executable EmployeeManager4.exe
+
+build EmployeeManager4.exe: CXX_EXECUTABLE_LINKER__EmployeeManager4_Debug CMakeFiles/EmployeeManager4.dir/08/2/EmployeeManager4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EmployeeManager4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EmployeeManager4.exe
+  TARGET_IMPLIB = libEmployeeManager4.dll.a
+  TARGET_PDB = EmployeeManager4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08-1
+
+
+#############################################
+# Order-only phony target for 08-1
+
+build cmake_object_order_depends_target_08-1: phony || CMakeFiles/08-1.dir
+
+build CMakeFiles/08-1.dir/08/2/08-1.cpp.obj: CXX_COMPILER__08-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/2/08-1.cpp || cmake_object_order_depends_target_08-1
+  DEP_FILE = CMakeFiles\08-1.dir\08\2\08-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\08-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\08-1.dir\08\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08-1
+
+
+#############################################
+# Link the executable 08-1.exe
+
+build 08-1.exe: CXX_EXECUTABLE_LINKER__08-1_Debug CMakeFiles/08-1.dir/08/2/08-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\08-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 08-1.exe
+  TARGET_IMPLIB = lib08-1.dll.a
+  TARGET_PDB = 08-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VirualDestructor
+
+
+#############################################
+# Order-only phony target for VirualDestructor
+
+build cmake_object_order_depends_target_VirualDestructor: phony || CMakeFiles/VirualDestructor.dir
+
+build CMakeFiles/VirualDestructor.dir/08/3/VirualDestructor.cpp.obj: CXX_COMPILER__VirualDestructor_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/3/VirualDestructor.cpp || cmake_object_order_depends_target_VirualDestructor
+  DEP_FILE = CMakeFiles\VirualDestructor.dir\08\3\VirualDestructor.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\VirualDestructor.dir
+  OBJECT_FILE_DIR = CMakeFiles\VirualDestructor.dir\08\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VirualDestructor
+
+
+#############################################
+# Link the executable VirualDestructor.exe
+
+build VirualDestructor.exe: CXX_EXECUTABLE_LINKER__VirualDestructor_Debug CMakeFiles/VirualDestructor.dir/08/3/VirualDestructor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\VirualDestructor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = VirualDestructor.exe
+  TARGET_IMPLIB = libVirualDestructor.dll.a
+  TARGET_PDB = VirualDestructor.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReferenceAttribute
+
+
+#############################################
+# Order-only phony target for ReferenceAttribute
+
+build cmake_object_order_depends_target_ReferenceAttribute: phony || CMakeFiles/ReferenceAttribute.dir
+
+build CMakeFiles/ReferenceAttribute.dir/08/3/ReferenceAttribute.cpp.obj: CXX_COMPILER__ReferenceAttribute_Debug C$:/Users/WorldPC/CLionProjects/untitled/08/3/ReferenceAttribute.cpp || cmake_object_order_depends_target_ReferenceAttribute
+  DEP_FILE = CMakeFiles\ReferenceAttribute.dir\08\3\ReferenceAttribute.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ReferenceAttribute.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReferenceAttribute.dir\08\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReferenceAttribute
+
+
+#############################################
+# Link the executable ReferenceAttribute.exe
+
+build ReferenceAttribute.exe: CXX_EXECUTABLE_LINKER__ReferenceAttribute_Debug CMakeFiles/ReferenceAttribute.dir/08/3/ReferenceAttribute.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReferenceAttribute.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReferenceAttribute.exe
+  TARGET_IMPLIB = libReferenceAttribute.dll.a
+  TARGET_PDB = ReferenceAttribute.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3741,6 +3939,8 @@ build 07-2-1: phony 07-2-1.exe
 
 build 07-2-2: phony 07-2-2.exe
 
+build 08-1: phony 08-1.exe
+
 build BankingSystemVer02: phony BankingSystemVer02.exe
 
 build BankingSystemVer03: phony BankingSystemVer03.exe
@@ -3789,6 +3989,8 @@ build EmployeeManager1: phony EmployeeManager1.exe
 
 build EmployeeManager2: phony EmployeeManager2.exe
 
+build EmployeeManager4: phony EmployeeManager4.exe
+
 build Encaps1: phony Encaps1.exe
 
 build Encaps2: phony Encaps2.exe
@@ -3802,6 +4004,10 @@ build FruitSaleSim2: phony FruitSaleSim2.exe
 build FruitSalesSim3: phony FruitSalesSim3.exe
 
 build FunctionOverloading: phony FunctionOverloading.exe
+
+build FunctionOverride: phony FunctionOverride.exe
+
+build FunctionVirtualOverride: phony FunctionVirtualOverride.exe
 
 build HASComposite: phony HASComposite.exe
 
@@ -3885,6 +4091,8 @@ build RefSwap: phony RefSwap.exe
 
 build Referen: phony Referen.exe
 
+build ReferenceAttribute: phony ReferenceAttribute.exe
+
 build ReferenceMember: phony ReferenceMember.exe
 
 build ReturnObjCopycon: phony ReturnObjCopycon.exe
@@ -3911,6 +4119,8 @@ build UnivStudentInheri: phony UnivStudentInheri.exe
 
 build UsefulThisPtr: phony UsefulThisPtr.exe
 
+build VirualDestructor: phony VirualDestructor.exe
+
 build main: phony main.exe
 
 build q1: phony q1.exe
@@ -3931,7 +4141,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe ISAInheritance.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe HASInheritance.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe ProtectedHeri.exe HASComposite.exe 07-2-1.exe 07-2-2.exe BankingSystemVer05.exe ObjectPointer.exe EmployeeManager2.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe ISAInheritance.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe HASInheritance.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe ProtectedHeri.exe HASComposite.exe 07-2-1.exe 07-2-2.exe BankingSystemVer05.exe ObjectPointer.exe EmployeeManager2.exe FunctionOverride.exe FunctionVirtualOverride.exe EmployeeManager4.exe 08-1.exe VirualDestructor.exe ReferenceAttribute.exe
 
 # =============================================================================
 # Built-in targets

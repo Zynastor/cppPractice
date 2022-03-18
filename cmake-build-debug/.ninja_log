@@ -1,11 +1,11 @@
 # ninja log v5
-454	535	6685162814665299	Example.exe	b95e8803833b332e
 1	453	6685162813878886	CMakeFiles/Example.dir/01/4/Example.cpp.obj	4fdbab70f8890ba3
+454	535	6685162814665299	Example.exe	b95e8803833b332e
 2	389	6685231006451784	CMakeFiles/RefArrElem.dir/02/2/RefArrElem.cpp.obj	fa6047b983aa6b5f
 2	402	6685111860801101	CMakeFiles/BetweenAdder.dir/01/1/BetweenAdder.cpp.obj	45aea3c98eaa59b6
 0	444	6685101481895376	CMakeFiles/main.dir/main.cpp.obj	da697d559ccf8610
 2	398	6685113877222412	CMakeFiles/StringIO.dir/01/1/StringIO.cpp.obj	7690606c06509278
-1	186	6692210607900164	build.ninja	a0ece6a1a67cf208
+1	186	6693073494147233	build.ninja	a0ece6a1a67cf208
 0	456	6685100565845863	CMakeFiles/untitled.dir/main.cpp.obj	625addf6d38ca19c
 1	541	6692170028484622	CMakeFiles/07-2-1.dir/07/4/07-2-1.cpp.obj	68c8b9c3e4ca0dfa
 547	669	6685189555177515	NameSp4.exe	9cbaaa5d2ec4266d
@@ -73,6 +73,7 @@
 0	584	6685250890953012	CMakeFiles/RefSwap.dir/02/2/RefSwap.cpp.obj	cd56f794d7a4184b
 0	445	6686830615307169	CMakeFiles/RefReturnThree.dir/02/2/RefReturnThree.cpp.obj	2a08ea18ec0ff004
 585	670	6685250891783033	RefSwap.exe	f07758944efce661
+2	514	6693071694826561	CMakeFiles/VirualDestructor.dir/08/3/VirualDestructor.cpp.obj	6cb3ae5217a5aecc
 530	622	6685255793312928	02-1-3.exe	f220c168aa90fa5e
 2	471	6686807800832451	CMakeFiles/RefReturnOne.dir/02/2/RefReturnOne.cpp.obj	5ace72d7ba8e3eb7
 0	483	6686816280225662	CMakeFiles/RefReturnTwo.dir/02/2/RefReturnTwo.cpp.obj	811ceba768085052
@@ -88,6 +89,7 @@
 701	801	6686868533508340	NewObject.exe	dce68ab7a40562c8
 0	554	6691326219968872	CMakeFiles/DerivCreOrder.dir/07/2/DerivCreOrder.cpp.obj	113927db10cf0b5c
 0	890	6686881706999846	CMakeFiles/02-2-3.dir/02/2/02-2-3.cpp.obj	db4b563e8b2ebeb1
+500	604	6693038549391115	FunctionOverride.exe	94135a0b7be3a317
 890	1003	6686881708141288	02-2-3.exe	359843e33bf8d4b4
 0	218	6686887834003235	CMakeFiles/StdCPPFunc.dir/02/2/StdCPPFunc.cpp.obj	c767c206c7b6935b
 0	396	6690496956374407	CMakeFiles/ConstObject.dir/06/1/ConstObject.cpp.obj	82dc87a5540b154f
@@ -213,5 +215,17 @@
 542	636	6692170029414624	07-2-1.exe	b6d684ed21e21f4
 0	513	6692173779254996	CMakeFiles/07-2-2.dir/07/4/07-2-2.cpp.obj	f302af926dc3b572
 504	596	6692202448851643	BankingSystemVer05.exe	f36dc7af34949d6d
+3	535	6693028938606305	CMakeFiles/EmployeeManager2.dir/08/1/EmployeeManager2.cpp.obj	ed2f8faec94c8744
 0	577	6692208630307867	CMakeFiles/ObjectPointer.dir/08/1/ObjectPointer.cpp.obj	642404afbb7dc7c1
 577	700	6692208631511533	ObjectPointer.exe	6d013c28f7d70b20
+535	625	6693028939485290	EmployeeManager2.exe	fd97694711948494
+1	500	6693038548380555	CMakeFiles/FunctionOverride.dir/08/2/FunctionOverride.cpp.obj	5d9f006571c1e1c9
+0	527	6693043154278398	CMakeFiles/FunctionVirtualOverride.dir/08/2/FunctionVirtualOverride.cpp.obj	468a89f67407838e
+528	624	6693043155222030	FunctionVirtualOverride.exe	83b8528b691a3096
+2	514	6693046419455710	CMakeFiles/EmployeeManager4.dir/08/2/EmployeeManager4.cpp.obj	61a9497cfcf4b8ca
+514	611	6693046420396397	EmployeeManager4.exe	55429646d9c6fcac
+3	473	6693062243095890	CMakeFiles/08-1.dir/08/2/08-1.cpp.obj	4edbb0ab7166dfb3
+474	578	6693062244119201	08-1.exe	8a43ccb644f81086
+514	611	6693071695758183	VirualDestructor.exe	1df93f184376570f
+0	499	6693075791365143	CMakeFiles/ReferenceAttribute.dir/08/3/ReferenceAttribute.cpp.obj	8a01b02090c1d22e
+500	610	6693075792446670	ReferenceAttribute.exe	ce3701daa92f62af
