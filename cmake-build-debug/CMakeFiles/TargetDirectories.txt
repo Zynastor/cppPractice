@@ -113,5 +113,13 @@ C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/EmployeeMan
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/08-1.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/VirualDestructor.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/ReferenceAttribute.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingSystemVer06.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RealObjUnder1.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RealObjUnder2.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/VirtualInternal.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/MultiInheri1.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/MultiInheri2.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/MultiInheri3.dir
+C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/BankingAccountDivided.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
