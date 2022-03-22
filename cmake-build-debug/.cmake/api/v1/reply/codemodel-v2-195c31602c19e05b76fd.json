@@ -137,7 +137,23 @@
 						119,
 						120,
 						121,
-						122
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138
 					]
 				}
 			],
@@ -274,7 +290,23 @@
 						119,
 						120,
 						121,
-						122
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138
 					]
 				}
 			],
@@ -415,6 +447,34 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "10-1-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-1-1-Debug-9c6cb46b536d258c7aba.json",
+					"name" : "10-1-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-2-Debug-c3dcd5241f7f4733a677.json",
+					"name" : "10-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-3-Debug-bb811c7552b1fc6b728e.json",
+					"name" : "10-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AssignShallowCopyError::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AssignShallowCopyError-Debug-14da44d46298cc12c16e.json",
+					"name" : "AssignShallowCopyError",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "BankingAccountDivided::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-BankingAccountDivided-Debug-2e6d47078976e9a5c0c8.json",
 					"name" : "BankingAccountDivided",
@@ -488,6 +548,20 @@
 					"id" : "ClassInit::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ClassInit-Debug-3a2d9b8276d781c7b6c7.json",
 					"name" : "ClassInit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CommuMultipleOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CommuMultipleOperation-Debug-84a38e7264f69ee930b4.json",
+					"name" : "CommuMultipleOperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConsoleOutput::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConsoleOutput-Debug-2be45fa4d0aa8b898c91.json",
+					"name" : "ConsoleOutput",
 					"projectIndex" : 0
 				},
 				{
@@ -625,6 +699,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "FirstOperationOverloading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FirstOperationOverloading-Debug-141b463341b68b160175.json",
+					"name" : "FirstOperationOverloading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FirstOperationOverloading2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FirstOperationOverloading2-Debug-f787746b7b52d7f7ac36.json",
+					"name" : "FirstOperationOverloading2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "FruitSaleSim1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FruitSaleSim1-Debug-eed1494795f411ae91cb.json",
 					"name" : "FruitSaleSim1",
@@ -667,6 +755,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "GFunctionOverloading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GFunctionOverloading-Debug-ff1c2fa982a730e32a52.json",
+					"name" : "GFunctionOverloading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "HASComposite::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HASComposite-Debug-f4689b17f14e9ce9b793.json",
 					"name" : "HASComposite",
@@ -702,9 +797,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "InheritAssignOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InheritAssignOperation-Debug-cdef22ae2097974fa8c3.json",
+					"name" : "InheritAssignOperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "InlineFunc::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-InlineFunc-Debug-67b650f9b3209be183c6.json",
 					"name" : "InlineFunc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IterateConsoleOutput::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IterateConsoleOutput-Debug-f35c43509a95afb704d7.json",
+					"name" : "IterateConsoleOutput",
 					"projectIndex" : 0
 				},
 				{
@@ -828,6 +937,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "OneOpndOverloading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OneOpndOverloading-Debug-d827c84d305fa5ae90ba.json",
+					"name" : "OneOpndOverloading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OverloadingOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OverloadingOperation-Debug-4a039dd7c008ef9bf48a.json",
+					"name" : "OverloadingOperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "PassObjCopycon::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-PassObjCopycon-Debug-2052b5c89bd944ef514d.json",
 					"name" : "PassObjCopycon",
@@ -842,6 +965,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "PointConsoleOutput::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PointConsoleOutput-Debug-cd6b739c662e1c3d6e39.json",
+					"name" : "PointConsoleOutput",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PointMultipleOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PointMultipleOperation-Debug-6f513dc8918ff668d258.json",
+					"name" : "PointMultipleOperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "PointRemake::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-PointRemake-Debug-db4b587804ce7a03e150.json",
 					"name" : "PointRemake",
@@ -852,6 +989,13 @@
 					"id" : "PointerThis::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-PointerThis-Debug-1209bad26ef88d15a03f.json",
 					"name" : "PointerThis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PostOpndOverloading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PostOpndOverloading-Debug-017efa4e078f05180e23.json",
+					"name" : "PostOpndOverloading",
 					"projectIndex" : 0
 				},
 				{

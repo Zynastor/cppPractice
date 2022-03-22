@@ -140,6 +140,39 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 10-1-1
+
+
+#############################################
+# Order-only phony target for 10-1-1
+
+build cmake_object_order_depends_target_10-1-1: phony || CMakeFiles/10-1-1.dir
+
+build CMakeFiles/10-1-1.dir/10/1/10-1.cpp.obj: CXX_COMPILER__10-1-1_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/1/10-1.cpp || cmake_object_order_depends_target_10-1-1
+  DEP_FILE = CMakeFiles\10-1-1.dir\10\1\10-1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\10-1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\10-1-1.dir\10\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10-1-1
+
+
+#############################################
+# Link the executable 10-1-1.exe
+
+build 10-1-1.exe: CXX_EXECUTABLE_LINKER__10-1-1_Debug CMakeFiles/10-1-1.dir/10/1/10-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10-1-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10-1-1.exe
+  TARGET_IMPLIB = lib10-1-1.dll.a
+  TARGET_PDB = 10-1-1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target q4
 
 
@@ -1037,6 +1070,39 @@ build Referen.exe: CXX_EXECUTABLE_LINKER__Referen_Debug CMakeFiles/Referen.dir/0
   TARGET_PDB = Referen.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FirstOperationOverloading2
+
+
+#############################################
+# Order-only phony target for FirstOperationOverloading2
+
+build cmake_object_order_depends_target_FirstOperationOverloading2: phony || CMakeFiles/FirstOperationOverloading2.dir
+
+build CMakeFiles/FirstOperationOverloading2.dir/11/FirstOperationOverloading2.cpp.obj: CXX_COMPILER__FirstOperationOverloading2_Debug C$:/Users/WorldPC/CLionProjects/untitled/11/FirstOperationOverloading2.cpp || cmake_object_order_depends_target_FirstOperationOverloading2
+  DEP_FILE = CMakeFiles\FirstOperationOverloading2.dir\11\FirstOperationOverloading2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FirstOperationOverloading2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FirstOperationOverloading2.dir\11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FirstOperationOverloading2
+
+
+#############################################
+# Link the executable FirstOperationOverloading2.exe
+
+build FirstOperationOverloading2.exe: CXX_EXECUTABLE_LINKER__FirstOperationOverloading2_Debug CMakeFiles/FirstOperationOverloading2.dir/11/FirstOperationOverloading2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FirstOperationOverloading2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FirstOperationOverloading2.exe
+  TARGET_IMPLIB = libFirstOperationOverloading2.dll.a
+  TARGET_PDB = FirstOperationOverloading2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target NameSp3
 
 
@@ -1068,6 +1134,39 @@ build NameSp3.exe: CXX_EXECUTABLE_LINKER__NameSp3_Debug CMakeFiles/NameSp3.dir/0
   TARGET_FILE = NameSp3.exe
   TARGET_IMPLIB = libNameSp3.dll.a
   TARGET_PDB = NameSp3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10-2
+
+
+#############################################
+# Order-only phony target for 10-2
+
+build cmake_object_order_depends_target_10-2: phony || CMakeFiles/10-2.dir
+
+build CMakeFiles/10-2.dir/10/2/10-2.cpp.obj: CXX_COMPILER__10-2_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/2/10-2.cpp || cmake_object_order_depends_target_10-2
+  DEP_FILE = CMakeFiles\10-2.dir\10\2\10-2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\10-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\10-2.dir\10\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10-2
+
+
+#############################################
+# Link the executable 10-2.exe
+
+build 10-2.exe: CXX_EXECUTABLE_LINKER__10-2_Debug CMakeFiles/10-2.dir/10/2/10-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10-2.exe
+  TARGET_IMPLIB = lib10-2.dll.a
+  TARGET_PDB = 10-2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FruitSalesSim3
@@ -1964,6 +2063,39 @@ build Encaps1.exe: CXX_EXECUTABLE_LINKER__Encaps1_Debug CMakeFiles/Encaps1.dir/0
   TARGET_PDB = Encaps1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target PointMultipleOperation
+
+
+#############################################
+# Order-only phony target for PointMultipleOperation
+
+build cmake_object_order_depends_target_PointMultipleOperation: phony || CMakeFiles/PointMultipleOperation.dir
+
+build CMakeFiles/PointMultipleOperation.dir/10/3/PointMultipleOperation.cpp.obj: CXX_COMPILER__PointMultipleOperation_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/3/PointMultipleOperation.cpp || cmake_object_order_depends_target_PointMultipleOperation
+  DEP_FILE = CMakeFiles\PointMultipleOperation.dir\10\3\PointMultipleOperation.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PointMultipleOperation.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointMultipleOperation.dir\10\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointMultipleOperation
+
+
+#############################################
+# Link the executable PointMultipleOperation.exe
+
+build PointMultipleOperation.exe: CXX_EXECUTABLE_LINKER__PointMultipleOperation_Debug CMakeFiles/PointMultipleOperation.dir/10/3/PointMultipleOperation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PointMultipleOperation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PointMultipleOperation.exe
+  TARGET_IMPLIB = libPointMultipleOperation.dll.a
+  TARGET_PDB = PointMultipleOperation.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 03-1
 
 
@@ -2193,6 +2325,39 @@ build 03-2-2.exe: CXX_EXECUTABLE_LINKER__03-2-2_Debug CMakeFiles/03-2-2.dir/03/2
   TARGET_FILE = 03-2-2.exe
   TARGET_IMPLIB = lib03-2-2.dll.a
   TARGET_PDB = 03-2-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InheritAssignOperation
+
+
+#############################################
+# Order-only phony target for InheritAssignOperation
+
+build cmake_object_order_depends_target_InheritAssignOperation: phony || CMakeFiles/InheritAssignOperation.dir
+
+build CMakeFiles/InheritAssignOperation.dir/11/InheritAssignOperation.cpp.obj: CXX_COMPILER__InheritAssignOperation_Debug C$:/Users/WorldPC/CLionProjects/untitled/11/InheritAssignOperation.cpp || cmake_object_order_depends_target_InheritAssignOperation
+  DEP_FILE = CMakeFiles\InheritAssignOperation.dir\11\InheritAssignOperation.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\InheritAssignOperation.dir
+  OBJECT_FILE_DIR = CMakeFiles\InheritAssignOperation.dir\11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InheritAssignOperation
+
+
+#############################################
+# Link the executable InheritAssignOperation.exe
+
+build InheritAssignOperation.exe: CXX_EXECUTABLE_LINKER__InheritAssignOperation_Debug CMakeFiles/InheritAssignOperation.dir/11/InheritAssignOperation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InheritAssignOperation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InheritAssignOperation.exe
+  TARGET_IMPLIB = libInheritAssignOperation.dll.a
+  TARGET_PDB = InheritAssignOperation.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RectangleFault
@@ -2820,6 +2985,39 @@ build ReturnObjDeadTime.exe: CXX_EXECUTABLE_LINKER__ReturnObjDeadTime_Debug CMak
   TARGET_FILE = ReturnObjDeadTime.exe
   TARGET_IMPLIB = libReturnObjDeadTime.dll.a
   TARGET_PDB = ReturnObjDeadTime.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GFunctionOverloading
+
+
+#############################################
+# Order-only phony target for GFunctionOverloading
+
+build cmake_object_order_depends_target_GFunctionOverloading: phony || CMakeFiles/GFunctionOverloading.dir
+
+build CMakeFiles/GFunctionOverloading.dir/10/1/GFunctionOverloading.cpp.obj: CXX_COMPILER__GFunctionOverloading_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/1/GFunctionOverloading.cpp || cmake_object_order_depends_target_GFunctionOverloading
+  DEP_FILE = CMakeFiles\GFunctionOverloading.dir\10\1\GFunctionOverloading.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\GFunctionOverloading.dir
+  OBJECT_FILE_DIR = CMakeFiles\GFunctionOverloading.dir\10\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GFunctionOverloading
+
+
+#############################################
+# Link the executable GFunctionOverloading.exe
+
+build GFunctionOverloading.exe: CXX_EXECUTABLE_LINKER__GFunctionOverloading_Debug CMakeFiles/GFunctionOverloading.dir/10/1/GFunctionOverloading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GFunctionOverloading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GFunctionOverloading.exe
+  TARGET_IMPLIB = libGFunctionOverloading.dll.a
+  TARGET_PDB = GFunctionOverloading.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BankingSystemVer03
@@ -4153,6 +4351,336 @@ build BankingAccountDivided.exe: CXX_EXECUTABLE_LINKER__BankingAccountDivided_De
   TARGET_IMPLIB = libBankingAccountDivided.dll.a
   TARGET_PDB = BankingAccountDivided.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FirstOperationOverloading
+
+
+#############################################
+# Order-only phony target for FirstOperationOverloading
+
+build cmake_object_order_depends_target_FirstOperationOverloading: phony || CMakeFiles/FirstOperationOverloading.dir
+
+build CMakeFiles/FirstOperationOverloading.dir/10/1/FirstOperationOverloading.cpp.obj: CXX_COMPILER__FirstOperationOverloading_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/1/FirstOperationOverloading.cpp || cmake_object_order_depends_target_FirstOperationOverloading
+  DEP_FILE = CMakeFiles\FirstOperationOverloading.dir\10\1\FirstOperationOverloading.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\FirstOperationOverloading.dir
+  OBJECT_FILE_DIR = CMakeFiles\FirstOperationOverloading.dir\10\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FirstOperationOverloading
+
+
+#############################################
+# Link the executable FirstOperationOverloading.exe
+
+build FirstOperationOverloading.exe: CXX_EXECUTABLE_LINKER__FirstOperationOverloading_Debug CMakeFiles/FirstOperationOverloading.dir/10/1/FirstOperationOverloading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FirstOperationOverloading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FirstOperationOverloading.exe
+  TARGET_IMPLIB = libFirstOperationOverloading.dll.a
+  TARGET_PDB = FirstOperationOverloading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OverloadingOperation
+
+
+#############################################
+# Order-only phony target for OverloadingOperation
+
+build cmake_object_order_depends_target_OverloadingOperation: phony || CMakeFiles/OverloadingOperation.dir
+
+build CMakeFiles/OverloadingOperation.dir/10/1/OverloadingOperation.cpp.obj: CXX_COMPILER__OverloadingOperation_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/1/OverloadingOperation.cpp || cmake_object_order_depends_target_OverloadingOperation
+  DEP_FILE = CMakeFiles\OverloadingOperation.dir\10\1\OverloadingOperation.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\OverloadingOperation.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverloadingOperation.dir\10\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OverloadingOperation
+
+
+#############################################
+# Link the executable OverloadingOperation.exe
+
+build OverloadingOperation.exe: CXX_EXECUTABLE_LINKER__OverloadingOperation_Debug CMakeFiles/OverloadingOperation.dir/10/1/OverloadingOperation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OverloadingOperation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OverloadingOperation.exe
+  TARGET_IMPLIB = libOverloadingOperation.dll.a
+  TARGET_PDB = OverloadingOperation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OneOpndOverloading
+
+
+#############################################
+# Order-only phony target for OneOpndOverloading
+
+build cmake_object_order_depends_target_OneOpndOverloading: phony || CMakeFiles/OneOpndOverloading.dir
+
+build CMakeFiles/OneOpndOverloading.dir/10/2/OneOpndOverloading.cpp.obj: CXX_COMPILER__OneOpndOverloading_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/2/OneOpndOverloading.cpp || cmake_object_order_depends_target_OneOpndOverloading
+  DEP_FILE = CMakeFiles\OneOpndOverloading.dir\10\2\OneOpndOverloading.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\OneOpndOverloading.dir
+  OBJECT_FILE_DIR = CMakeFiles\OneOpndOverloading.dir\10\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OneOpndOverloading
+
+
+#############################################
+# Link the executable OneOpndOverloading.exe
+
+build OneOpndOverloading.exe: CXX_EXECUTABLE_LINKER__OneOpndOverloading_Debug CMakeFiles/OneOpndOverloading.dir/10/2/OneOpndOverloading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OneOpndOverloading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OneOpndOverloading.exe
+  TARGET_IMPLIB = libOneOpndOverloading.dll.a
+  TARGET_PDB = OneOpndOverloading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PostOpndOverloading
+
+
+#############################################
+# Order-only phony target for PostOpndOverloading
+
+build cmake_object_order_depends_target_PostOpndOverloading: phony || CMakeFiles/PostOpndOverloading.dir
+
+build CMakeFiles/PostOpndOverloading.dir/10/2/PostOpndOverloading.cpp.obj: CXX_COMPILER__PostOpndOverloading_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/2/PostOpndOverloading.cpp || cmake_object_order_depends_target_PostOpndOverloading
+  DEP_FILE = CMakeFiles\PostOpndOverloading.dir\10\2\PostOpndOverloading.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PostOpndOverloading.dir
+  OBJECT_FILE_DIR = CMakeFiles\PostOpndOverloading.dir\10\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PostOpndOverloading
+
+
+#############################################
+# Link the executable PostOpndOverloading.exe
+
+build PostOpndOverloading.exe: CXX_EXECUTABLE_LINKER__PostOpndOverloading_Debug CMakeFiles/PostOpndOverloading.dir/10/2/PostOpndOverloading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PostOpndOverloading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PostOpndOverloading.exe
+  TARGET_IMPLIB = libPostOpndOverloading.dll.a
+  TARGET_PDB = PostOpndOverloading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CommuMultipleOperation
+
+
+#############################################
+# Order-only phony target for CommuMultipleOperation
+
+build cmake_object_order_depends_target_CommuMultipleOperation: phony || CMakeFiles/CommuMultipleOperation.dir
+
+build CMakeFiles/CommuMultipleOperation.dir/10/3/CommuMultipleOperation.cpp.obj: CXX_COMPILER__CommuMultipleOperation_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/3/CommuMultipleOperation.cpp || cmake_object_order_depends_target_CommuMultipleOperation
+  DEP_FILE = CMakeFiles\CommuMultipleOperation.dir\10\3\CommuMultipleOperation.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\CommuMultipleOperation.dir
+  OBJECT_FILE_DIR = CMakeFiles\CommuMultipleOperation.dir\10\3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CommuMultipleOperation
+
+
+#############################################
+# Link the executable CommuMultipleOperation.exe
+
+build CommuMultipleOperation.exe: CXX_EXECUTABLE_LINKER__CommuMultipleOperation_Debug CMakeFiles/CommuMultipleOperation.dir/10/3/CommuMultipleOperation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CommuMultipleOperation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CommuMultipleOperation.exe
+  TARGET_IMPLIB = libCommuMultipleOperation.dll.a
+  TARGET_PDB = CommuMultipleOperation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ConsoleOutput
+
+
+#############################################
+# Order-only phony target for ConsoleOutput
+
+build cmake_object_order_depends_target_ConsoleOutput: phony || CMakeFiles/ConsoleOutput.dir
+
+build CMakeFiles/ConsoleOutput.dir/10/4/ConsoleOutput.cpp.obj: CXX_COMPILER__ConsoleOutput_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/4/ConsoleOutput.cpp || cmake_object_order_depends_target_ConsoleOutput
+  DEP_FILE = CMakeFiles\ConsoleOutput.dir\10\4\ConsoleOutput.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ConsoleOutput.dir
+  OBJECT_FILE_DIR = CMakeFiles\ConsoleOutput.dir\10\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ConsoleOutput
+
+
+#############################################
+# Link the executable ConsoleOutput.exe
+
+build ConsoleOutput.exe: CXX_EXECUTABLE_LINKER__ConsoleOutput_Debug CMakeFiles/ConsoleOutput.dir/10/4/ConsoleOutput.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ConsoleOutput.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ConsoleOutput.exe
+  TARGET_IMPLIB = libConsoleOutput.dll.a
+  TARGET_PDB = ConsoleOutput.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IterateConsoleOutput
+
+
+#############################################
+# Order-only phony target for IterateConsoleOutput
+
+build cmake_object_order_depends_target_IterateConsoleOutput: phony || CMakeFiles/IterateConsoleOutput.dir
+
+build CMakeFiles/IterateConsoleOutput.dir/10/4/IterateConsoleOutput.cpp.obj: CXX_COMPILER__IterateConsoleOutput_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/4/IterateConsoleOutput.cpp || cmake_object_order_depends_target_IterateConsoleOutput
+  DEP_FILE = CMakeFiles\IterateConsoleOutput.dir\10\4\IterateConsoleOutput.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\IterateConsoleOutput.dir
+  OBJECT_FILE_DIR = CMakeFiles\IterateConsoleOutput.dir\10\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IterateConsoleOutput
+
+
+#############################################
+# Link the executable IterateConsoleOutput.exe
+
+build IterateConsoleOutput.exe: CXX_EXECUTABLE_LINKER__IterateConsoleOutput_Debug CMakeFiles/IterateConsoleOutput.dir/10/4/IterateConsoleOutput.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IterateConsoleOutput.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IterateConsoleOutput.exe
+  TARGET_IMPLIB = libIterateConsoleOutput.dll.a
+  TARGET_PDB = IterateConsoleOutput.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointConsoleOutput
+
+
+#############################################
+# Order-only phony target for PointConsoleOutput
+
+build cmake_object_order_depends_target_PointConsoleOutput: phony || CMakeFiles/PointConsoleOutput.dir
+
+build CMakeFiles/PointConsoleOutput.dir/10/4/PointConsoleOutput.cpp.obj: CXX_COMPILER__PointConsoleOutput_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/4/PointConsoleOutput.cpp || cmake_object_order_depends_target_PointConsoleOutput
+  DEP_FILE = CMakeFiles\PointConsoleOutput.dir\10\4\PointConsoleOutput.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PointConsoleOutput.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointConsoleOutput.dir\10\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointConsoleOutput
+
+
+#############################################
+# Link the executable PointConsoleOutput.exe
+
+build PointConsoleOutput.exe: CXX_EXECUTABLE_LINKER__PointConsoleOutput_Debug CMakeFiles/PointConsoleOutput.dir/10/4/PointConsoleOutput.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PointConsoleOutput.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PointConsoleOutput.exe
+  TARGET_IMPLIB = libPointConsoleOutput.dll.a
+  TARGET_PDB = PointConsoleOutput.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10-3
+
+
+#############################################
+# Order-only phony target for 10-3
+
+build cmake_object_order_depends_target_10-3: phony || CMakeFiles/10-3.dir
+
+build CMakeFiles/10-3.dir/10/4/10-3.cpp.obj: CXX_COMPILER__10-3_Debug C$:/Users/WorldPC/CLionProjects/untitled/10/4/10-3.cpp || cmake_object_order_depends_target_10-3
+  DEP_FILE = CMakeFiles\10-3.dir\10\4\10-3.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\10-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\10-3.dir\10\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10-3
+
+
+#############################################
+# Link the executable 10-3.exe
+
+build 10-3.exe: CXX_EXECUTABLE_LINKER__10-3_Debug CMakeFiles/10-3.dir/10/4/10-3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10-3.exe
+  TARGET_IMPLIB = lib10-3.dll.a
+  TARGET_PDB = 10-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AssignShallowCopyError
+
+
+#############################################
+# Order-only phony target for AssignShallowCopyError
+
+build cmake_object_order_depends_target_AssignShallowCopyError: phony || CMakeFiles/AssignShallowCopyError.dir
+
+build CMakeFiles/AssignShallowCopyError.dir/11/AssignShallowCopyError.cpp.obj: CXX_COMPILER__AssignShallowCopyError_Debug C$:/Users/WorldPC/CLionProjects/untitled/11/AssignShallowCopyError.cpp || cmake_object_order_depends_target_AssignShallowCopyError
+  DEP_FILE = CMakeFiles\AssignShallowCopyError.dir\11\AssignShallowCopyError.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\AssignShallowCopyError.dir
+  OBJECT_FILE_DIR = CMakeFiles\AssignShallowCopyError.dir\11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AssignShallowCopyError
+
+
+#############################################
+# Link the executable AssignShallowCopyError.exe
+
+build AssignShallowCopyError.exe: CXX_EXECUTABLE_LINKER__AssignShallowCopyError_Debug CMakeFiles/AssignShallowCopyError.dir/11/AssignShallowCopyError.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AssignShallowCopyError.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AssignShallowCopyError.exe
+  TARGET_IMPLIB = libAssignShallowCopyError.dll.a
+  TARGET_PDB = AssignShallowCopyError.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4217,6 +4745,14 @@ build 07-2-2: phony 07-2-2.exe
 
 build 08-1: phony 08-1.exe
 
+build 10-1-1: phony 10-1-1.exe
+
+build 10-2: phony 10-2.exe
+
+build 10-3: phony 10-3.exe
+
+build AssignShallowCopyError: phony AssignShallowCopyError.exe
+
 build BankingAccountDivided: phony BankingAccountDivided.exe
 
 build BankingSystemVer02: phony BankingSystemVer02.exe
@@ -4238,6 +4774,10 @@ build Car: phony Car.exe
 build CarInline: phony CarInline.exe
 
 build ClassInit: phony ClassInit.exe
+
+build CommuMultipleOperation: phony CommuMultipleOperation.exe
+
+build ConsoleOutput: phony ConsoleOutput.exe
 
 build ConstObject: phony ConstObject.exe
 
@@ -4277,6 +4817,10 @@ build Encaps2: phony Encaps2.exe
 
 build Example: phony Example.exe
 
+build FirstOperationOverloading: phony FirstOperationOverloading.exe
+
+build FirstOperationOverloading2: phony FirstOperationOverloading2.exe
+
 build FruitSaleSim1: phony FruitSaleSim1.exe
 
 build FruitSaleSim2: phony FruitSaleSim2.exe
@@ -4289,6 +4833,8 @@ build FunctionOverride: phony FunctionOverride.exe
 
 build FunctionVirtualOverride: phony FunctionVirtualOverride.exe
 
+build GFunctionOverloading: phony GFunctionOverloading.exe
+
 build HASComposite: phony HASComposite.exe
 
 build HASInheritance: phony HASInheritance.exe
@@ -4299,7 +4845,11 @@ build IKnowTempObj: phony IKnowTempObj.exe
 
 build ISAInheritance: phony ISAInheritance.exe
 
+build InheritAssignOperation: phony InheritAssignOperation.exe
+
 build InlineFunc: phony InlineFunc.exe
+
+build IterateConsoleOutput: phony IterateConsoleOutput.exe
 
 build MemMalFree: phony MemMalFree.exe
 
@@ -4335,13 +4885,23 @@ build ObjPtrArr: phony ObjPtrArr.exe
 
 build ObjectPointer: phony ObjectPointer.exe
 
+build OneOpndOverloading: phony OneOpndOverloading.exe
+
+build OverloadingOperation: phony OverloadingOperation.exe
+
 build PassObjCopycon: phony PassObjCopycon.exe
 
 build Point: phony Point.exe
 
+build PointConsoleOutput: phony PointConsoleOutput.exe
+
+build PointMultipleOperation: phony PointMultipleOperation.exe
+
 build PointRemake: phony PointRemake.exe
 
 build PointerThis: phony PointerThis.exe
+
+build PostOpndOverloading: phony PostOpndOverloading.exe
 
 build ProtectedHeri: phony ProtectedHeri.exe
 
@@ -4433,7 +4993,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/WorldPC/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 02-4-1.exe 02-2-3.exe main.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe NameSp3.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe ISAInheritance.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe HASInheritance.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe ProtectedHeri.exe HASComposite.exe 07-2-1.exe 07-2-2.exe BankingSystemVer05.exe ObjectPointer.exe EmployeeManager2.exe FunctionOverride.exe FunctionVirtualOverride.exe EmployeeManager4.exe 08-1.exe VirualDestructor.exe ReferenceAttribute.exe BankingSystemVer06.exe RealObjUnder1.exe RealObjUnder2.exe VirtualInternal.exe MultiInheri1.exe MultiInheri2.exe MultiInheri3.exe BankingAccountDivided.exe
+build all: phony 02-4-1.exe 02-2-3.exe main.exe 10-1-1.exe q4.exe SelfRef.exe untitled.exe HelloWorld.exe BetweenAdder.exe FunctionOverloading.exe q3.exe TrueAndFalse.exe NameSp2.exe SimpleAdder.exe StringIO.exe RefReturnThree.exe q1.exe q2.exe Question.exe DefaultValue1.exe DefaultAdder2.exe 02-2.exe DefaultValue3.exe Q1.exe 04-2.exe InlineFunc.exe Car.exe 02-4-2.exe Example.exe NameSp1.exe Referen.exe FirstOperationOverloading2.exe NameSp3.exe 10-2.exe FruitSalesSim3.exe NameSp4.exe PointRemake.exe NewObject.exe IKnowTempObj.exe SimpleMain.exe DataTypeBool.exe RefArrElem.exe RefPtr.exe RefSwap.exe 02-1-1.exe StaticMember.exe 02-1-3.exe FruitSaleSim1.exe RacingCarOuterFunc.exe ISAInheritance.exe RefReturnOne.exe NewDelete.exe RefReturnTwo.exe MemMalFree.exe Point.exe StdCPPFunc.exe RacingCar.exe CarInline.exe RacingCarFuncAdd.exe Encaps1.exe PointMultipleOperation.exe 03-1.exe PointerThis.exe Constructor1.exe RacingCarEnum.exe RacingCarClassBase.exe 03-2-1.exe 03-2-2.exe InheritAssignOperation.exe RectangleFault.exe 04-1.exe Encaps2.exe Constructor2.exe FruitSaleSim2.exe ReferenceMember.exe Destructor.exe 04-3-1.exe 04-3-2.exe ObjArr.exe ObjPtrArr.exe UsefulThisPtr.exe BankingSystemVer02.exe ClassInit.exe ShallowCopyError.exe 05-1.exe PassObjCopycon.exe ReturnObjCopycon.exe ReturnObjDeadTime.exe GFunctionOverloading.exe BankingSystemVer03.exe ConstObject.exe ConstOverloading.exe MyFriendClass.exe MyFriendFunction.exe CComStatic.exe NeedGlobal.exe PublicStaticMember.exe ConstStaticMember.exe Mutable.exe BankingSystemVer04.exe EmployeeManager1.exe HASInheritance.exe UnivStudentInheri.exe DerivCreOrder.exe DerivDestOrder.exe DestModel.exe 07-1-1.exe 07-1-2.exe ProtectedHeri.exe HASComposite.exe 07-2-1.exe 07-2-2.exe BankingSystemVer05.exe ObjectPointer.exe EmployeeManager2.exe FunctionOverride.exe FunctionVirtualOverride.exe EmployeeManager4.exe 08-1.exe VirualDestructor.exe ReferenceAttribute.exe BankingSystemVer06.exe RealObjUnder1.exe RealObjUnder2.exe VirtualInternal.exe MultiInheri1.exe MultiInheri2.exe MultiInheri3.exe BankingAccountDivided.exe FirstOperationOverloading.exe OverloadingOperation.exe OneOpndOverloading.exe PostOpndOverloading.exe CommuMultipleOperation.exe ConsoleOutput.exe IterateConsoleOutput.exe PointConsoleOutput.exe 10-3.exe AssignShallowCopyError.exe
 
 # =============================================================================
 # Built-in targets
