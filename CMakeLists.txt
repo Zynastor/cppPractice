@@ -132,7 +132,7 @@ add_executable(VirtualInternal 09/1/VirtualInternal.cpp)
 add_executable(MultiInheri1 09/2/MultiInheri1.cpp)
 add_executable(MultiInheri2 09/2/MultiInheri2.cpp)
 add_executable(MultiInheri3 09/2/MultiInheri3.cpp)
-add_executable(BankingAccountDivided 09/3/Account.cpp 09/3/Account.h 09/3/NormalAccout.h 09/3/HighCreditAccount.h 09/3/AccountHandler.h 09/3/AccountHandler.cpp  09/3/BankingCommonDecl.h 09/3/BankingSystemMain.cpp)
+add_executable(BankingAccountDivided 09/3/Account.cpp 09/3/Account.h 09/3/NormalAccout.h 09/3/HighCreditAccount.h 09/3/AccountHandler.h 09/3/AccountHandler.cpp 09/3/BankingCommonDecl.h 09/3/BankingSystemMain.cpp)
 
 add_executable(FirstOperationOverloading 10/1/FirstOperationOverloading.cpp)
 add_executable(OverloadingOperation 10/1/OverloadingOperation.cpp)
@@ -158,3 +158,38 @@ add_executable(StableConstArrayProb 11/2/StableConstArrayProb.cpp)
 add_executable(StableConstArraySolu 11/2/StableConstArraySolu.cpp)
 add_executable(StablePointObjArray 11/2/StablePointObjArray.cpp)
 add_executable(StablePointPtrArray 11/2/StablePointPtrArray.cpp)
+add_executable(11-2-1 11/2/11-2-1.cpp)
+add_executable(11-2-2 11/2/11-2-2.cpp)
+add_executable(NewDeleteOverloading 11/3/NewDeleteOverloading.cpp)
+add_executable(ArrayNewDeleteOverloading 11/3/ArrayNewDeleteOverloading.cpp)
+add_executable(PointerOperatorOverloading 11/3/PointerOperatorOverloading.cpp)
+add_executable(SmartPointer 11/3/SmartPointer.cpp)
+add_executable(Function 11/3/Function.cpp)
+add_executable(SortFunctor 11/3/SortFunctor.cpp)
+add_executable(ConvToObject 11/3/ConvToObject.cpp)
+add_executable(ConvToPrimitive 11/3/ConvToPrimitive.cpp)
+add_executable(Account11 11/4/Account.h 11/4/Account.cpp 11/4/AccountHandler.h 11/4/AccountArray.h 11/4/AccountArray.cpp
+        11/4/AccountHandler.cpp 11/4/BankingCommonDecl.h 11/4/BankingSystemMain.cpp 11/4/HighCreditAccount.h
+        11/4/NormalAccout.h)
+
+add_executable(STDString 12/1/STDString.cpp)
+add_executable(StringClass 12/2/StringClass.cpp)
+add_executable(Account12 12/3/Account.h 12/3/Account.cpp 12/3/AccountHandler.h 12/3/AccountHandler.cpp
+        12/3/AccountArray.cpp 12/3/AccountArray.h 12/3/BankingCommonDecl.h 12/3/BankingSystemMain.cpp
+        12/3/HighCreditAccount.h 12/3/NormalAccout.h 12/3/String.h 12/3/String.cpp)
+add_executable(AddFunctionTemplate 13/1/AddFunctionTemplate.cpp)
+add_executable(TwoTypeAddFunction 13/1/TwoTypeAddFunction.cpp)
+add_executable(PrimitiveFunctionTemplate 13/1/PrimitiveFunctionTemplate.cpp)
+add_executable(13-1-1 13/1/13-1-1.cpp)
+add_executable(13-1-2 13/1/13-1-2.cpp)
+add_executable(NeedSpecialFunctionTemplate 13/1/NeedSpecialFunctionTemplate.cpp)
+add_executable(SpecialFunctionTemplate 13/1/SpecialFunctionTemplate.cpp)
+add_executable(PointClassTemplate 13/2/PointClassTemplate.cpp)
+add_executable(PointClassTemplateFuncDel 13/2/PointClassTemplateFuncDel.cpp)
+add_executable(PointMain13 13/2/PointMain.cpp 13/2/PointTemplate.cpp 13/2/PointTemplate.h)
+add_executable(Point132 13/2/Point.h 13/2/Point.cpp 13/2/BoundArrayMain.cpp 13/2/ArrayTemplate.h)
+add_executable(13-2 13/2/13-2.cpp)
+add_executable(13-3 13/3/Account.cpp 13/3/Account.h
+        13/3/AccountHandler.cpp 13/3/AccountHandler.h 13/3/BankingSystemMain.cpp 13/3/BankingCommonDecl.h
+        13/3/BoundCheckArray.h 13/3/HighCreditAccount.h 13/3/NormalAccout.h 13/3/String.cpp
+        13/3/String.h)
