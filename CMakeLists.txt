@@ -193,3 +193,16 @@ add_executable(13-3 13/3/Account.cpp 13/3/Account.h
         13/3/AccountHandler.cpp 13/3/AccountHandler.h 13/3/BankingSystemMain.cpp 13/3/BankingCommonDecl.h
         13/3/BoundCheckArray.h 13/3/HighCreditAccount.h 13/3/NormalAccout.h 13/3/String.cpp
         13/3/String.h)
+add_executable(BoundArrayMain 14/1/BoundArrayMain.cpp 14/1/ArrayTemplate.h 14/1/BoundArrayMain.cpp)
+add_executable(PointTemplateFriendFunction 14/1/PointTemplateFriendFunction.cpp)
+add_executable(ClassTemplateSpecialization 14/2/ClassTemplateSpecialization.cpp)
+add_executable(ClassTemplatePartialSpecialization 14/2/ClassTemplatePartialSpecialization.cpp)
+add_executable(NonTypeTemplateParam 14/3/NonTypeTemplateParam.cpp)
+add_executable(TemplateParamDefaultValue 14/3/TemplateParamDefaultValue.cpp)
+add_executable(FunctionTemplateStaticVar 14/4/FunctionTemplateStaticVar.cpp)
+add_executable(ClassTemplateStaticMem 14/4/ClassTemplateStaticMem.cpp)
+add_executable(UnhandlingException 15/1/UnhandlingException.cpp)
+add_executable(HandlingExceptionUseIf 15/1/HandlingExceptionUseIf.cpp)
+add_executable(HandlingExceptionTryCatch 15/2/HandlingExceptionTryCatch.cpp)
+add_executable(PassException 15/3/PassException.cpp)
+add_executable(DiffHandlingPosition 15/3/DiffHandlingPosition.cpp)
